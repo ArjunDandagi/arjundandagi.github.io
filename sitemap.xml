@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://raw.githubusercontent.com/ArjunDandagi/arjundandagi.github.io/master/</loc>
+    <loc>https://arjundandagi.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://raw.githubusercontent.com/ArjunDandagi/arjundandagi.github.io/master/categories/</loc>
+    <loc>https://arjundandagi.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://raw.githubusercontent.com/ArjunDandagi/arjundandagi.github.io/master/tags/</loc>
+    <loc>https://arjundandagi.github.io/tags/</loc>
     <priority>0</priority>
   </url>
   
