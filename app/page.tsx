@@ -117,7 +117,7 @@ export default function HomePage() {
         </section>
 
         <section className="about-section">
-          <h2>About</h2>
+          <h2>About Me</h2>
           <div className="about-content-box">
             <p>{profile.summary}</p>
           </div>
