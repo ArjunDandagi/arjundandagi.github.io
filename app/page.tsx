@@ -14,12 +14,17 @@ import {
 import { siteConfig } from "@/data/site";
 import { certifications, profile } from "@/data/profile";
 
-const stackIcons: { label: string; icon: IconType; accent: string }[] = [
+type StackItem =
+  | { label: string; icon: IconType; accent: string; imageSrc?: never }
+  | { label: string; imageSrc: string; icon?: never; accent?: never };
+
+const stackIcons: StackItem[] = [
   { label: "Kubernetes", icon: SiKubernetes, accent: "#326ce5" },
   { label: "Argo", icon: SiArgo, accent: "#ef7b4d" },
   { label: "AWS", icon: SiAmazon, accent: "#c96a00" },
   { label: "Terraform", icon: SiTerraform, accent: "#844fba" },
   { label: "Docker", icon: SiDocker, accent: "#2496ed" },
+  { label: "Python", imageSrc: "https://www.python.org/static/favicon.ico" },
   { label: "GitHub Actions", icon: SiGithubactions, accent: "#2088ff" },
   { label: "Grafana", icon: SiGrafana, accent: "#f46800" },
   { label: "Prometheus", icon: SiPrometheus, accent: "#e6522c" },
@@ -36,8 +41,9 @@ const quickStats = [
 
 export default function HomePage() {
   return (
-    <div className="home">
-      <section className="hero-visual">
+    <>
+      <div className="home">
+        <section className="hero-visual">
         <div className="hero-content">
           <h1>
             DevOps Engineer
@@ -93,25 +99,28 @@ export default function HomePage() {
           </p>
         </div>
 
-        <div className="hero-right">
-          <div className="hero-photo-wrap">
-            <Image
-              src="/images/arjun-cartoon.png"
-              alt="Arjun cartoon portrait"
-              width={360}
-              height={360}
-              className="hero-photo"
-              priority
-            />
+          <div className="hero-right">
+            <div className="hero-photo-wrap">
+              <Image
+                src="/images/arjun-cartoon.png"
+                alt="Arjun cartoon portrait"
+                width={360}
+                height={360}
+                className="hero-photo"
+                priority
+              />
+            </div>
           </div>
-          <article className="about-card">
-            <h3>About</h3>
-            <p>{profile.summary}</p>
-          </article>
-        </div>
-      </section>
+        </section>
 
-      <section className="stats-row">
+        <section className="about-section">
+          <h2>About</h2>
+          <div className="about-content-box">
+            <p>{profile.summary}</p>
+          </div>
+        </section>
+
+        <section className="stats-row">
         {quickStats.map((stat) => (
           <article key={stat.label} className="stat-card">
             <span className="stat-emoji" role="img" aria-label={stat.label}>
@@ -123,24 +132,43 @@ export default function HomePage() {
             </div>
           </article>
         ))}
-      </section>
+        </section>
 
-      <section>
+        <section>
         <div className="section-header">
           <h2>Skills & Tooling</h2>
           <span>Core stack</span>
         </div>
         <div className="skills-grid">
-          {stackIcons.map(({ label, icon: Icon, accent }) => (
-            <article key={label} className="stack-chip">
-              <Icon className="tool-icon" style={{ color: accent }} aria-hidden />
-              <span>{label}</span>
+            {stackIcons.map((item) => (
+              <article key={item.label} className="stack-chip">
+                {"icon" in item &&
+                  (() => {
+                    const Icon = item.icon;
+                    return (
+                      <Icon
+                        className="tool-icon"
+                        style={{ color: item.accent }}
+                        aria-hidden
+                      />
+                    );
+                  })()}
+                {"imageSrc" in item && (
+                  <Image
+                    src={item.imageSrc}
+                    alt={`${item.label} logo`}
+                    width={20}
+                    height={20}
+                    className="tool-logo-img"
+                  />
+                )}
+                <span>{item.label}</span>
             </article>
           ))}
         </div>
-      </section>
+        </section>
 
-      <section>
+        <section>
         <div className="section-header">
           <h2>Certifications</h2>
           <span>Core credentials</span>
@@ -161,7 +189,8 @@ export default function HomePage() {
             </article>
           ))}
         </div>
-      </section>
-    </div>
+        </section>
+      </div>
+    </>
   );
 }

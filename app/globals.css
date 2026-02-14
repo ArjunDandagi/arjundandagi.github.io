@@ -192,6 +192,13 @@ h2 {
     drop-shadow(0 0 1.5px rgb(2 7 15 / 55%));
 }
 
+.tool-logo-img {
+  border-radius: 4px;
+  filter:
+    drop-shadow(0 0.5px 0 rgb(255 255 255 / 25%))
+    drop-shadow(0 0 1.5px rgb(2 7 15 / 55%));
+}
+
 .stack-chip span {
   font-size: 0.88rem;
   color: #d4e2f8;
@@ -315,20 +322,25 @@ h2 {
   color: #b5c6e4;
 }
 
-.about-card {
+.about-section {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.about-section h2 {
+  margin-bottom: 0;
+}
+
+.about-content-box {
   border: 1px solid #395174;
   border-radius: 14px;
   background: linear-gradient(180deg, #1a2b47 0%, #15243d 100%);
   padding: 0.9rem;
 }
 
-.about-card h3 {
-  margin-bottom: 0.4rem;
-  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
-}
-
-.about-card p {
+.about-content-box p {
   color: #cedcf3;
+  margin: 0;
 }
 
 .skills-grid {
