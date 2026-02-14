@@ -49,7 +49,7 @@ export default function HomePage() {
         <section className="hero-visual">
         <div className="hero-content">
           <h1>
-            DevOps Engineer
+            Senior DevOps Engineer
             <br />
             building cloud platforms that scale ⚡
           </h1>
