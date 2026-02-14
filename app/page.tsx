@@ -14,9 +14,12 @@ import {
 import { siteConfig } from "@/data/site";
 import { certifications, profile } from "@/data/profile";
 
-type StackItem =
-  | { label: string; icon: IconType; accent: string; imageSrc?: never }
-  | { label: string; imageSrc: string; icon?: never; accent?: never };
+type StackItem = {
+  label: string;
+  icon?: IconType;
+  accent?: string;
+  imageSrc?: string;
+};
 
 const stackIcons: StackItem[] = [
   { label: "Kubernetes", icon: SiKubernetes, accent: "#326ce5" },
@@ -142,7 +145,7 @@ export default function HomePage() {
         <div className="skills-grid">
             {stackIcons.map((item) => (
               <article key={item.label} className="stack-chip">
-                {"icon" in item &&
+                {item.icon &&
                   (() => {
                     const Icon = item.icon;
                     return (
@@ -153,7 +156,7 @@ export default function HomePage() {
                       />
                     );
                   })()}
-                {"imageSrc" in item && (
+                {item.imageSrc && (
                   <Image
                     src={item.imageSrc}
                     alt={`${item.label} logo`}
