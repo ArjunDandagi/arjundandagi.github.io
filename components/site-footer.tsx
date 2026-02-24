@@ -8,7 +8,6 @@ export function SiteFooter() {
           {new Date().getFullYear()} {siteConfig.name}. Built with Next.js and
           deployed on GitHub Pages.
         </p>
-        <a href="/rss.xml">RSS</a>
       </div>
     </footer>
   );

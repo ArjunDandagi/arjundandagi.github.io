@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
-import { socialLinks } from "@/data/site";
+import { siteConfig } from "@/data/site";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 export function SiteHeader() {
@@ -14,7 +14,7 @@ export function SiteHeader() {
           <ThemeToggle />
           <div className="header-social">
             <a
-              href={socialLinks[0].href}
+              href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
               aria-label="Twitter"
@@ -23,7 +23,7 @@ export function SiteHeader() {
               <SiX />
             </a>
             <a
-              href={socialLinks[2].href}
+              href={siteConfig.links.linkedin}
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -32,7 +32,7 @@ export function SiteHeader() {
               <SiLinkedin />
             </a>
             <a
-              href={socialLinks[1].href}
+              href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"

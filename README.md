@@ -1,6 +1,6 @@
 # arjundandagi.github.io
 
-Modern portfolio + engineering blog built with Next.js static export and deployed via GitHub Pages.
+Modern portfolio site built with Next.js static export and deployed via GitHub Pages.
 
 ## Local development
 
@@ -20,5 +20,5 @@ Generated static files are emitted to `out/`.
 ## Content
 
 - Portfolio/profile data: `data/`
-- Blog posts: `content/blog/`
-- Blog authoring guide: `docs/blog-authoring.md`
+- Homepage UI and sections: `app/page.tsx`
+- Global theme styles: `app/globals.css`
