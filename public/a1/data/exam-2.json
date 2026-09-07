@@ -1,0 +1,912 @@
+{
+  "id": 2,
+  "title": "Prüfung 2 — Familie und Wohnen",
+  "city": "Hamburg",
+  "hoeren": {
+    "teil1": {
+      "example": {
+        "question": "Welche Wohnung sucht die Frau?",
+        "answer": "a",
+        "options": [
+          {
+            "id": "a",
+            "icon": "home",
+            "label": "3 Zimmer"
+          },
+          {
+            "id": "b",
+            "icon": "home",
+            "label": "1 Zimmer"
+          },
+          {
+            "id": "c",
+            "icon": "hotel",
+            "label": "Hotel"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": 1,
+          "question": "Was kostet die Jacke?",
+          "plays": 2,
+          "audio": "audio/exam-2/h01.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Die Jacke ist schön. Was kostet sie?"
+            },
+            {
+              "voice": "mann",
+              "text": "Neunundvierzig Euro neunzig. Nicht fünfzig."
+            }
+          ],
+          "transcript": "Frau: Die Jacke ist schön. Was kostet sie? Mann: Neunundvierzig Euro neunzig.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "type": "price",
+              "value": "39,90 €",
+              "label": "39,90 €"
+            },
+            {
+              "id": "b",
+              "type": "price",
+              "value": "49,90 €",
+              "label": "49,90 €"
+            },
+            {
+              "id": "c",
+              "type": "price",
+              "value": "59,90 €",
+              "label": "59,90 €"
+            }
+          ],
+          "explanation": {
+            "de": "Neunundvierzig Euro neunzig = 49,90 €.",
+            "en": "Forty-nine euros ninety is €49.90."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 2,
+          "question": "Wann beginnt die Schule?",
+          "plays": 2,
+          "audio": "audio/exam-2/h02.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Wann muss Lisa in der Schule sein?"
+            },
+            {
+              "voice": "frau",
+              "text": "Der Unterricht beginnt um acht Uhr. Nicht um halb acht."
+            }
+          ],
+          "transcript": "Der Unterricht beginnt um acht Uhr. Nicht um halb acht.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "type": "clock",
+              "hour": 7,
+              "minute": 30,
+              "label": "7.30 Uhr"
+            },
+            {
+              "id": "b",
+              "type": "clock",
+              "hour": 7,
+              "minute": 45,
+              "label": "7.45 Uhr"
+            },
+            {
+              "id": "c",
+              "type": "clock",
+              "hour": 8,
+              "minute": 0,
+              "label": "8.00 Uhr"
+            }
+          ],
+          "explanation": {
+            "de": "Um acht Uhr. Halb acht (7.30) wird ausgeschlossen.",
+            "en": "School starts at 8:00, not 7:30."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 3,
+          "question": "Was isst der Mann?",
+          "plays": 2,
+          "audio": "audio/exam-2/h03.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Möchtest du Pommes oder Fisch?"
+            },
+            {
+              "voice": "mann",
+              "text": "Fisch, bitte. Ohne Pommes."
+            }
+          ],
+          "transcript": "Kind: Fisch, bitte. Ohne Pommes.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "icon": "fish",
+              "label": "Fisch"
+            },
+            {
+              "id": "b",
+              "icon": "fries",
+              "label": "Pommes"
+            },
+            {
+              "id": "c",
+              "icon": "sausage",
+              "label": "Wurst"
+            }
+          ],
+          "explanation": {
+            "de": "Er bestellt Fisch und sagt: ohne Pommes.",
+            "en": "He orders fish, explicitly without fries."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 4,
+          "question": "Wohin muss die Frau?",
+          "plays": 2,
+          "audio": "audio/exam-2/h04.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Kannst du heute den Sohn von der Schule holen?"
+            },
+            {
+              "voice": "frau",
+              "text": "Nein, ich muss zum Arzt. Kannst du das machen?"
+            }
+          ],
+          "transcript": "Frau: Nein, ich muss zum Arzt.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "icon": "school",
+              "label": "zur Schule"
+            },
+            {
+              "id": "b",
+              "icon": "pharmacy",
+              "label": "zur Apotheke"
+            },
+            {
+              "id": "c",
+              "icon": "doctor",
+              "label": "zum Arzt"
+            }
+          ],
+          "explanation": {
+            "de": "Sie muss zum Arzt, nicht zur Schule.",
+            "en": "She has to go to the doctor."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 5,
+          "question": "In welche Klasse geht der Junge?",
+          "plays": 2,
+          "audio": "audio/exam-2/h05.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Ist dein Sohn noch in der zweiten Klasse?"
+            },
+            {
+              "voice": "mann",
+              "text": "Nein, jetzt geht er in die vierte Klasse."
+            }
+          ],
+          "transcript": "Jetzt geht er in die vierte Klasse.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "type": "number",
+              "value": "2",
+              "label": "2. Klasse"
+            },
+            {
+              "id": "b",
+              "type": "number",
+              "value": "3",
+              "label": "3. Klasse"
+            },
+            {
+              "id": "c",
+              "type": "number",
+              "value": "4",
+              "label": "4. Klasse"
+            }
+          ],
+          "explanation": {
+            "de": "Vierte Klasse = Klasse 4. Nicht mehr die zweite.",
+            "en": "He is now in 4th class."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 6,
+          "question": "Wie kommt die Frau in den 3. Stock?",
+          "plays": 2,
+          "audio": "audio/exam-2/h06.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Entschuldigung, wie komme ich in den dritten Stock?"
+            },
+            {
+              "voice": "mann",
+              "text": "Der Aufzug ist leider kaputt. Nehmen Sie bitte die Treppe. Die Rolltreppe fährt nur in den ersten Stock."
+            }
+          ],
+          "transcript": "Frau: Entschuldigung, wie komme ich in den dritten Stock? Mann: Der Aufzug ist leider kaputt. Nehmen Sie bitte die Treppe. Die Rolltreppe fährt nur in den ersten Stock.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "elevator",
+              "label": "mit dem Aufzug"
+            },
+            {
+              "id": "b",
+              "icon": "stairs",
+              "label": "auf der Treppe"
+            },
+            {
+              "id": "c",
+              "icon": "escalator",
+              "label": "mit der Rolltreppe"
+            }
+          ],
+          "explanation": {
+            "de": "Aufzug kaputt. Die Treppe ist die Lösung für den 3. Stock.",
+            "en": "The lift is broken; take the stairs."
+          },
+          "style": "dialog"
+        }
+      ]
+    },
+    "teil2": {
+      "example": {
+        "statement": "Die Eltern sollen zur Rezeption kommen.",
+        "answer": "+"
+      },
+      "items": [
+        {
+          "id": 7,
+          "statement": "Die Elternversammlung ist um 17 Uhr.",
+          "plays": 1,
+          "audio": "audio/exam-2/h07.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Liebe Eltern, die Elternversammlung ist heute um neunzehn Uhr in der Aula, nicht um siebzehn Uhr."
+            }
+          ],
+          "transcript": "Die Elternversammlung ist heute um neunzehn Uhr, nicht um siebzehn Uhr.",
+          "answer": "-",
+          "explanation": {
+            "de": "19.00 Uhr, nicht 17.00 Uhr.",
+            "en": "The meeting is at 19:00, not 17:00."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 8,
+          "statement": "Im Schwimmbad müssen Sie eine Badekappe tragen.",
+          "plays": 1,
+          "audio": "audio/exam-2/h08.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Achtung im Schwimmbad: Bitte tragen Sie eine Badekappe. Das ist Pflicht."
+            }
+          ],
+          "transcript": "Bitte tragen Sie eine Badekappe. Das ist Pflicht.",
+          "answer": "+",
+          "explanation": {
+            "de": "Badekappe ist Pflicht = Sie müssen sie tragen.",
+            "en": "A swim cap is required."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 9,
+          "statement": "Der Bus fährt heute bis zum Rathaus.",
+          "plays": 1,
+          "audio": "audio/exam-2/h09.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Linie fünf endet heute schon am Bahnhof. Der Bus fährt nicht bis zum Rathaus."
+            }
+          ],
+          "transcript": "Linie fünf endet am Bahnhof. Der Bus fährt nicht bis zum Rathaus.",
+          "answer": "-",
+          "explanation": {
+            "de": "Der Bus endet am Bahnhof, nicht am Rathaus.",
+            "en": "The bus stops at the station, not city hall."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 10,
+          "statement": "Sie können die Wohnung heute Nachmittag besichtigen.",
+          "plays": 1,
+          "audio": "audio/exam-2/h10.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Besichtigung der Wohnung heute von vierzehn bis sechzehn Uhr. Bitte pünktlich kommen."
+            }
+          ],
+          "transcript": "Besichtigung heute von vierzehn bis sechzehn Uhr.",
+          "answer": "+",
+          "explanation": {
+            "de": "14–16 Uhr ist nachmittags. Die Aussage ist richtig.",
+            "en": "Viewing is 14:00–16:00, in the afternoon."
+          },
+          "style": "durchsage"
+        }
+      ]
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "question": "Die Hausnummer ist:",
+          "plays": 2,
+          "audio": "audio/exam-2/h11.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Hallo Oma, unsere neue Adresse ist Gartenstraße achtzehn. Nicht acht, achtzehn! Bis Sonntag."
+            }
+          ],
+          "transcript": "Gartenstraße achtzehn. Nicht acht.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "label": "Gartenstraße 8"
+            },
+            {
+              "id": "b",
+              "label": "Gartenstraße 80"
+            },
+            {
+              "id": "c",
+              "label": "Gartenstraße 18"
+            }
+          ],
+          "explanation": {
+            "de": "Achtzehn = 18, nicht 8 und nicht 80.",
+            "en": "Eighteen is 18."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 12,
+          "question": "Was ist in der Küche kaputt?",
+          "plays": 2,
+          "audio": "audio/exam-2/h12.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Guten Tag, Hausmeister. Der Kühlschrank ist kaputt. Herd und Waschmaschine gehen."
+            }
+          ],
+          "transcript": "Der Kühlschrank ist kaputt. Herd und Waschmaschine gehen.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "oven",
+              "label": "der Herd"
+            },
+            {
+              "id": "b",
+              "icon": "fridge",
+              "label": "der Kühlschrank"
+            },
+            {
+              "id": "c",
+              "icon": "washer",
+              "label": "die Waschmaschine"
+            }
+          ],
+          "explanation": {
+            "de": "Nur der Kühlschrank ist kaputt.",
+            "en": "Only the fridge is broken."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 13,
+          "question": "Wie viele Personen wohnen in der Wohnung?",
+          "plays": 2,
+          "audio": "audio/exam-2/h13.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Wir sind vier Personen: ich, mein Mann und unsere zwei Kinder."
+            }
+          ],
+          "transcript": "Wir sind vier Personen: ich, mein Mann und unsere zwei Kinder.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "label": "3 Personen"
+            },
+            {
+              "id": "b",
+              "label": "4 Personen"
+            },
+            {
+              "id": "c",
+              "label": "5 Personen"
+            }
+          ],
+          "explanation": {
+            "de": "Zwei Erwachsene + zwei Kinder = vier Personen.",
+            "en": "Two adults and two children = four people."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 14,
+          "question": "Wann kommt der Paketbote?",
+          "plays": 2,
+          "audio": "audio/exam-2/h14.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Ihr Paket kommt morgen Vormittag, zwischen neun und elf Uhr. Nicht am Nachmittag."
+            }
+          ],
+          "transcript": "Morgen Vormittag, zwischen neun und elf Uhr.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "label": "9–11 Uhr"
+            },
+            {
+              "id": "b",
+              "label": "11–13 Uhr"
+            },
+            {
+              "id": "c",
+              "label": "15–17 Uhr"
+            }
+          ],
+          "explanation": {
+            "de": "Zwischen 9 und 11 Uhr am Vormittag.",
+            "en": "Between 9 and 11 in the morning."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 15,
+          "question": "Wohin fährt die Familie am Wochenende?",
+          "plays": 2,
+          "audio": "audio/exam-2/h15.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Wir fahren nicht zur Arbeit und nicht zum Arzt. Am Wochenende fahren wir ans Meer."
+            }
+          ],
+          "transcript": "Am Wochenende fahren wir ans Meer.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "icon": "sea",
+              "label": "ans Meer"
+            },
+            {
+              "id": "b",
+              "icon": "work",
+              "label": "zur Arbeit"
+            },
+            {
+              "id": "c",
+              "icon": "doctor",
+              "label": "zum Arzt"
+            }
+          ],
+          "explanation": {
+            "de": "Sie fahren ans Meer. Arbeit und Arzt werden ausgeschlossen.",
+            "en": "They go to the sea."
+          },
+          "style": "telefon"
+        }
+      ]
+    }
+  },
+  "lesen": {
+    "teil1": {
+      "texts": [
+        {
+          "body": "Hallo Mama,\n\nich bin gut in Hamburg angekommen. Die Wohnung ist klein, aber hell. Es gibt ein Zimmer, eine Küche und ein Bad. Der Balkon fehlt. Die Nachbarn sind nett. Ruf mich bitte heute Abend an.\n\nDeine Yasmin",
+          "kind": "E-Mail"
+        },
+        {
+          "body": "Lieber Onkel Paul,\n\nvielen Dank für das Geschenk. Die Fahrradlichter sind super. Ich fahre jetzt jeden Morgen mit dem Rad zur Schule. Am Freitag habe ich eine Klassenarbeit in Mathematik.\n\nLiebe Grüße\nBen",
+          "kind": "Brief"
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "statement": "Yasmins Wohnung hat einen Balkon.",
+          "answer": "-",
+          "explanation": {
+            "de": "Sie schreibt: Der Balkon fehlt.",
+            "en": "There is no balcony."
+          }
+        },
+        {
+          "id": 2,
+          "statement": "Die Wohnung hat eine Küche und ein Bad.",
+          "answer": "+",
+          "explanation": {
+            "de": "Ein Zimmer, eine Küche und ein Bad.",
+            "en": "It has a kitchen and a bathroom."
+          }
+        },
+        {
+          "id": 3,
+          "statement": "Ben fährt mit dem Bus zur Schule.",
+          "answer": "-",
+          "explanation": {
+            "de": "Er fährt mit dem Rad zur Schule.",
+            "en": "He cycles to school."
+          }
+        },
+        {
+          "id": 4,
+          "statement": "Ben hat die Fahrradlichter gern.",
+          "answer": "+",
+          "explanation": {
+            "de": "„Die Fahrradlichter sind super.“",
+            "en": "He likes the bike lights."
+          }
+        },
+        {
+          "id": 5,
+          "statement": "Die Klassenarbeit ist am Montag.",
+          "answer": "-",
+          "explanation": {
+            "de": "Die Klassenarbeit ist am Freitag.",
+            "en": "The test is on Friday."
+          }
+        }
+      ],
+      "example": {
+        "statement": "Yasmin wohnt jetzt in Hamburg.",
+        "answer": "+"
+      }
+    },
+    "teil2": {
+      "items": [
+        {
+          "id": 6,
+          "prompt": "Sie suchen eine Wohnung mit zwei Zimmern, nicht teurer als 700 €.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Wohnung A",
+              "body": "2 Zimmer, 55 m²\nKüche, Bad, Keller\n680 € kalt\nab 1. Mai frei"
+            },
+            {
+              "id": "b",
+              "title": "Wohnung B",
+              "body": "4 Zimmer, 95 m²\nBalkon und Garten\n1150 € kalt\nab sofort"
+            }
+          ],
+          "explanation": {
+            "de": "Wohnung A hat 2 Zimmer und kostet 680 €. B ist zu groß und zu teuer.",
+            "en": "A has 2 rooms and costs €680."
+          }
+        },
+        {
+          "id": 7,
+          "prompt": "Ihr Kind ist 4 Jahre alt. Sie brauchen einen Kindergartenplatz am Nachmittag.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Hort Nord",
+              "body": "Nur für Schulkinder ab 6 Jahren\nNachmittagsbetreuung 13–17 Uhr"
+            },
+            {
+              "id": "b",
+              "title": "Kita Sonnenblume",
+              "body": "Kinder von 1 bis 6 Jahren\nGanztags 7–17 Uhr\nAuch nachmittags frei"
+            }
+          ],
+          "explanation": {
+            "de": "Kita Sonnenblume nimmt 4-Jährige. Der Hort ist erst ab 6.",
+            "en": "The Kita takes ages 1–6."
+          }
+        },
+        {
+          "id": 8,
+          "prompt": "Sie möchten am Samstag einen Kinderarzt finden.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Praxis Dr. Holm",
+              "body": "Kinderärztin\nMo–Fr 8–12 Uhr\nSamstag 9–12 Uhr Notfall"
+            },
+            {
+              "id": "b",
+              "title": "Praxis Dr. Keller",
+              "body": "Hausarzt für Erwachsene\nMo–Fr 9–13 Uhr\nWochenende geschlossen"
+            }
+          ],
+          "explanation": {
+            "de": "Dr. Holm ist Kinderärztin und samstags da. Keller behandelt Erwachsene und hat zu.",
+            "en": "Holm is a pediatrician open Saturday."
+          }
+        },
+        {
+          "id": 9,
+          "prompt": "Sie wollen einen gebrauchten Kinderwagen kaufen.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Möbelhaus Nord",
+              "body": "Sofas, Tische, Schränke\nKeine Kinderartikel\nMo–Sa 10–20 Uhr"
+            },
+            {
+              "id": "b",
+              "title": "Kleinanzeige: Familie Berg",
+              "body": "Kinderwagen, 2 Jahre alt\nsehr gut, 40 €\nAbholung in Hamburg-Altona"
+            }
+          ],
+          "explanation": {
+            "de": "Nur Familie Berg verkauft einen Kinderwagen.",
+            "en": "Only the private ad sells a stroller."
+          }
+        },
+        {
+          "id": 10,
+          "prompt": "Sie möchten sonntags Brot kaufen.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Bäckerei Krume",
+              "body": "Mo–Sa 6–18 Uhr\nSonntag 8–12 Uhr\nBrot und Brötchen"
+            },
+            {
+              "id": "b",
+              "title": "Supermarkt Frisch",
+              "body": "Mo–Sa 7–22 Uhr\nSonntag geschlossen"
+            }
+          ],
+          "explanation": {
+            "de": "Die Bäckerei hat sonntags von 8–12 offen. Der Supermarkt ist zu.",
+            "en": "The bakery is open Sunday morning."
+          }
+        }
+      ],
+      "example": {
+        "prompt": "Sie suchen einen Handwerker für die Wohnung.",
+        "answer": "a",
+        "options": [
+          {
+            "id": "a",
+            "title": "Elektro Sander",
+            "body": "Reparaturen in der Wohnung\nLampen, Steckdosen, Herd\nTermine kurzfristig"
+          },
+          {
+            "id": "b",
+            "title": "Blumen Sander",
+            "body": "Sträuße und Zimmerpflanzen\nLieferung in ganz Hamburg\nMo–Sa 9–19 Uhr"
+          }
+        ]
+      }
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "sign": "HAUSORDNUNG\nRuhe von 13.00–15.00 Uhr\nund nach 22.00 Uhr",
+          "statement": "Um 14 Uhr dürfen Sie laut Musik hören.",
+          "answer": "-",
+          "explanation": {
+            "de": "13–15 Uhr ist Ruhezeit.",
+            "en": "14:00 is inside quiet hours."
+          },
+          "where": "Im Hausflur"
+        },
+        {
+          "id": 12,
+          "sign": "SPIELSTRASSE\nSchrittgeschwindigkeit\nKinder haben Vorrang",
+          "statement": "Autos müssen hier sehr langsam fahren.",
+          "answer": "+",
+          "explanation": {
+            "de": "Schrittgeschwindigkeit = sehr langsam.",
+            "en": "Cars must drive at walking speed."
+          },
+          "where": "An der Straße"
+        },
+        {
+          "id": 13,
+          "sign": "Müllraum\nBitte Müll trennen:\nPapier · Glas · Restmüll",
+          "statement": "Sie können hier alles in eine Tonne werfen.",
+          "answer": "-",
+          "explanation": {
+            "de": "Müll trennen heißt: nicht alles in eine Tonne.",
+            "en": "Waste must be separated."
+          },
+          "where": "Im Müllraum"
+        },
+        {
+          "id": 14,
+          "sign": "Waschkeller\nNur für Hausbewohner\nMo–Sa 7–21 Uhr",
+          "statement": "Gäste von draußen dürfen hier waschen.",
+          "answer": "-",
+          "explanation": {
+            "de": "Nur für Hausbewohner, nicht für Gäste von draußen.",
+            "en": "Only residents may use the laundry."
+          },
+          "where": "Im Waschkeller"
+        },
+        {
+          "id": 15,
+          "sign": "Fahrradkeller\nBitte abschließen\nKein Platz für Kinderwagen",
+          "statement": "Kinderwagen gehören nicht in den Fahrradkeller.",
+          "answer": "+",
+          "explanation": {
+            "de": "Kein Platz für Kinderwagen = nicht hier abstellen.",
+            "en": "No space for strollers."
+          },
+          "where": "Im Fahrradkeller"
+        }
+      ],
+      "example": {
+        "where": "An der Haustür",
+        "sign": "Bitte die Tür\nimmer schließen.",
+        "statement": "Die Tür soll nicht offen bleiben.",
+        "answer": "+"
+      }
+    }
+  },
+  "schreiben": {
+    "teil1": {
+      "scenario": "Ihre Nachbarin, Marta Nowak, wohnt in Hamburg. Sie meldet ihre Tochter Lena (5 Jahre) für den Schwimmkurs am Dienstag an. Frau Nowak kommt mit Lena und ihrem Sohn (9 Jahre). Sie hat eine Kundenkarte der Schwimmhalle.",
+      "fields": [
+        {
+          "id": "name",
+          "label": "Familienname, Vorname",
+          "prefill": "Nowak, Marta"
+        },
+        {
+          "id": "f1",
+          "label": "1. Name des Kindes im Kurs",
+          "accepted": [
+            "Lena",
+            "Lena Nowak"
+          ]
+        },
+        {
+          "id": "f2",
+          "label": "2. Alter des Kindes im Kurs",
+          "accepted": [
+            "5",
+            "fünf",
+            "5 Jahre"
+          ]
+        },
+        {
+          "id": "f3",
+          "label": "3. Kurstag",
+          "accepted": [
+            "Dienstag"
+          ]
+        },
+        {
+          "id": "f4",
+          "label": "4. Anzahl der Personen an der Anmeldung",
+          "accepted": [
+            "3",
+            "drei"
+          ]
+        },
+        {
+          "id": "f5",
+          "label": "5. Kundenkarte",
+          "accepted": [
+            "ja",
+            "Kundenkarte",
+            "hat Kundenkarte",
+            "yes"
+          ]
+        }
+      ],
+      "formTitle": "SCHWIMMKURS HAMBURG · Anmeldung"
+    },
+    "teil2": {
+      "instruction": "Schreiben Sie an Ihren Freund Toni:",
+      "points": [
+        {
+          "label": "Sie sind umgezogen.",
+          "keywords": [
+            "umgezogen",
+            "neue wohnung",
+            "ziehe",
+            "wohnung"
+          ]
+        },
+        {
+          "label": "Die Wohnung hat zwei Zimmer.",
+          "keywords": [
+            "zwei zimmer",
+            "2 zimmer"
+          ]
+        },
+        {
+          "label": "Toni soll am Samstag kommen.",
+          "keywords": [
+            "samstag",
+            "komm",
+            "besuch"
+          ]
+        }
+      ],
+      "model": "Lieber Toni, ich bin letzte Woche umgezogen. Meine neue Wohnung hat zwei Zimmer und einen Balkon. Kannst du am Samstag zu mir kommen? Bitte schreib mir kurz. Liebe Grüße, Marta"
+    }
+  },
+  "sprechen": {
+    "teil1": {
+      "prompts": [
+        "Name?",
+        "Alter?",
+        "Familie?",
+        "Wohnort?",
+        "Wohnung?",
+        "Hobby?"
+      ],
+      "model": "Ich heiße … Ich bin … Jahre alt. Ich wohne in … mit … Die Wohnung hat … Zimmer. Mein Hobby ist …"
+    },
+    "teil2": {
+      "topic": "Wohnen",
+      "cards": [
+        "Zimmer?",
+        "Miete?",
+        "Balkon?",
+        "Nachbarn?",
+        "Stock?",
+        "Möbel?"
+      ],
+      "model": "Haben Sie einen Balkon? — Ja, einen kleinen Balkon. Wie viele Zimmer hat die Wohnung? — Zwei Zimmer."
+    },
+    "teil3": {
+      "prompt": "Die Tasche ist schwer. Bitten Sie: „Können Sie mir bitte helfen?“",
+      "model": "Entschuldigung, können Sie mir bitte helfen? Die Tasche ist schwer. — Ja, gern. / Einen Moment."
+    }
+  }
+}

@@ -1,0 +1,910 @@
+{
+  "id": 3,
+  "title": "Prüfung 3 — Reise und Freizeit",
+  "city": "Köln",
+  "hoeren": {
+    "teil1": {
+      "example": {
+        "question": "Wohin fährt der Bus?",
+        "answer": "a",
+        "options": [
+          {
+            "id": "a",
+            "icon": "museum",
+            "label": "zum Museum"
+          },
+          {
+            "id": "b",
+            "icon": "airport",
+            "label": "zum Flughafen"
+          },
+          {
+            "id": "c",
+            "icon": "hospital",
+            "label": "zum Krankenhaus"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": 1,
+          "question": "Was kostet die einfache Fahrkarte?",
+          "plays": 2,
+          "audio": "audio/exam-3/h01.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Eine Fahrkarte nach Bonn, bitte."
+            },
+            {
+              "voice": "frau",
+              "text": "Einfach elf Euro fünfzig. Hin und zurück zweiundzwanzig Euro."
+            }
+          ],
+          "transcript": "Einfach elf Euro fünfzig.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "type": "price",
+              "value": "11,50 €",
+              "label": "11,50 €"
+            },
+            {
+              "id": "b",
+              "type": "price",
+              "value": "15,00 €",
+              "label": "15,00 €"
+            },
+            {
+              "id": "c",
+              "type": "price",
+              "value": "22,00 €",
+              "label": "22,00 €"
+            }
+          ],
+          "explanation": {
+            "de": "Er kauft eine Fahrkarte (einfach): 11,50 €. 22 € wäre hin und zurück.",
+            "en": "A single ticket is €11.50."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 2,
+          "question": "Wann fährt der Zug?",
+          "plays": 2,
+          "audio": "audio/exam-3/h02.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Fährt der Zug um fünfzehn Uhr?"
+            },
+            {
+              "voice": "mann",
+              "text": "Nein, um fünfzehn Uhr dreißig. In einer halben Stunde."
+            }
+          ],
+          "transcript": "Um fünfzehn Uhr dreißig. In einer halben Stunde.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "type": "clock",
+              "hour": 15,
+              "minute": 0,
+              "label": "15.00 Uhr"
+            },
+            {
+              "id": "b",
+              "type": "clock",
+              "hour": 15,
+              "minute": 30,
+              "label": "15.30 Uhr"
+            },
+            {
+              "id": "c",
+              "type": "clock",
+              "hour": 16,
+              "minute": 0,
+              "label": "16.00 Uhr"
+            }
+          ],
+          "explanation": {
+            "de": "15.30 Uhr, nicht 15.00 Uhr.",
+            "en": "The train leaves at 15:30."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 3,
+          "question": "Was kauft die Frau am Kiosk?",
+          "plays": 2,
+          "audio": "audio/exam-3/h03.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Kaffee, Wasser oder einen Apfel?"
+            },
+            {
+              "voice": "frau",
+              "text": "Nur Wasser, bitte. Kein Kaffee."
+            }
+          ],
+          "transcript": "Nur Wasser, bitte. Kein Kaffee.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "icon": "water",
+              "label": "Wasser"
+            },
+            {
+              "id": "b",
+              "icon": "coffee",
+              "label": "Kaffee"
+            },
+            {
+              "id": "c",
+              "icon": "apples",
+              "label": "Apfel"
+            }
+          ],
+          "explanation": {
+            "de": "Sie kauft nur Wasser.",
+            "en": "She only buys water."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 4,
+          "question": "Wohin will der Mann?",
+          "plays": 2,
+          "audio": "audio/exam-3/h04.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Suchen Sie das Hotel oder den Flughafen?"
+            },
+            {
+              "voice": "mann",
+              "text": "Den Flughafen, bitte. Mein Flug ist um zehn."
+            }
+          ],
+          "transcript": "Den Flughafen, bitte. Mein Flug ist um zehn.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "hotel",
+              "label": "zum Hotel"
+            },
+            {
+              "id": "b",
+              "icon": "airport",
+              "label": "zum Flughafen"
+            },
+            {
+              "id": "c",
+              "icon": "station",
+              "label": "zum Bahnhof"
+            }
+          ],
+          "explanation": {
+            "de": "Er sucht den Flughafen, weil er einen Flug hat.",
+            "en": "He is going to the airport."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 5,
+          "question": "In welchem Saal läuft der Film?",
+          "plays": 2,
+          "audio": "audio/exam-3/h05.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Der Film „Sommer in Köln“ läuft in Saal drei, nicht in Saal zwei. Beginn um 19 Uhr."
+            }
+          ],
+          "transcript": "Der Film läuft in Saal drei, nicht in Saal zwei.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "type": "number",
+              "value": "1",
+              "label": "Saal 1"
+            },
+            {
+              "id": "b",
+              "type": "number",
+              "value": "2",
+              "label": "Saal 2"
+            },
+            {
+              "id": "c",
+              "type": "number",
+              "value": "3",
+              "label": "Saal 3"
+            }
+          ],
+          "explanation": {
+            "de": "Saal 3. Saal 2 wird ausgeschlossen.",
+            "en": "The film is in screen 3."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 6,
+          "question": "Wie ist das Wetter in Köln?",
+          "plays": 2,
+          "audio": "audio/exam-3/h06.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Regenschirm mitnehmen?"
+            },
+            {
+              "voice": "frau",
+              "text": "Nein. Heute scheint die Sonne. Morgen erst kommt der Wind."
+            }
+          ],
+          "transcript": "Heute scheint die Sonne. Morgen erst kommt der Wind.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "icon": "sun",
+              "label": "Sonne"
+            },
+            {
+              "id": "b",
+              "icon": "rain",
+              "label": "Regen"
+            },
+            {
+              "id": "c",
+              "icon": "wind",
+              "label": "Wind"
+            }
+          ],
+          "explanation": {
+            "de": "Heute Sonne. Wind kommt erst morgen.",
+            "en": "Today is sunny."
+          },
+          "style": "dialog"
+        }
+      ]
+    },
+    "teil2": {
+      "example": {
+        "statement": "Die Reisenden sollen am Gleis 1 warten.",
+        "answer": "-"
+      },
+      "items": [
+        {
+          "id": 7,
+          "statement": "Der Museumsbesuch beginnt um 11 Uhr.",
+          "plays": 1,
+          "audio": "audio/exam-3/h07.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Liebe Gäste, die Führung im Museum beginnt um elf Uhr am Haupteingang."
+            }
+          ],
+          "transcript": "Die Führung beginnt um elf Uhr am Haupteingang.",
+          "answer": "+",
+          "explanation": {
+            "de": "11 Uhr am Haupteingang. Die Aussage ist richtig.",
+            "en": "The tour starts at 11:00."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 8,
+          "statement": "Im Zug dürfen Sie im ersten Wagen Fahrräder mitnehmen.",
+          "plays": 1,
+          "audio": "audio/exam-3/h08.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Fahrräder bitte nur in Wagen vier. Im ersten Wagen ist das nicht erlaubt."
+            }
+          ],
+          "transcript": "Fahrräder nur in Wagen vier. Im ersten Wagen nicht erlaubt.",
+          "answer": "-",
+          "explanation": {
+            "de": "Fahrräder in Wagen 4, nicht im ersten Wagen.",
+            "en": "Bikes are only in carriage 4."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 9,
+          "statement": "Das Hotelrestaurant ist heute Abend geschlossen.",
+          "plays": 1,
+          "audio": "audio/exam-3/h09.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Das Hotelrestaurant ist heute Abend von achtzehn bis zweiundzwanzig Uhr geöffnet."
+            }
+          ],
+          "transcript": "Das Restaurant ist heute Abend von 18 bis 22 Uhr geöffnet.",
+          "answer": "-",
+          "explanation": {
+            "de": "Es ist geöffnet, nicht geschlossen.",
+            "en": "The restaurant is open this evening."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 10,
+          "statement": "Der Bus nach Bonn hat eine andere Haltestelle.",
+          "plays": 1,
+          "audio": "audio/exam-3/h10.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Achtung, der Bus nach Bonn fährt heute nicht hier. Die neue Haltestelle ist vor dem Kino."
+            }
+          ],
+          "transcript": "Der Bus fährt heute nicht hier. Neue Haltestelle vor dem Kino.",
+          "answer": "+",
+          "explanation": {
+            "de": "Neue Haltestelle = eine andere Haltestelle.",
+            "en": "The bus stop has changed."
+          },
+          "style": "durchsage"
+        }
+      ]
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "question": "Die Buchungsnummer ist:",
+          "plays": 2,
+          "audio": "audio/exam-3/h11.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Guten Tag. Ihre Buchungsnummer ist: drei sechs eins — acht null vier. Bitte bringen Sie die Nummer mit."
+            }
+          ],
+          "transcript": "Ihre Buchungsnummer ist: drei sechs eins, acht null vier.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "label": "316 804"
+            },
+            {
+              "id": "b",
+              "label": "361 804"
+            },
+            {
+              "id": "c",
+              "label": "361 840"
+            }
+          ],
+          "explanation": {
+            "de": "Drei sechs eins — acht null vier = 361 804.",
+            "en": "361 804."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 12,
+          "question": "Wo wartet die Gruppe?",
+          "plays": 2,
+          "audio": "audio/exam-3/h12.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Hallo, wir warten nicht im Hotel. Wir stehen vor dem Museum, links neben der großen Tür."
+            }
+          ],
+          "transcript": "Wir stehen vor dem Museum, links neben der großen Tür.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "icon": "hotel",
+              "label": "im Hotel"
+            },
+            {
+              "id": "b",
+              "icon": "station",
+              "label": "am Bahnhof"
+            },
+            {
+              "id": "c",
+              "icon": "museum",
+              "label": "vor dem Museum"
+            }
+          ],
+          "explanation": {
+            "de": "Vor dem Museum, nicht im Hotel.",
+            "en": "They wait in front of the museum."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 13,
+          "question": "Wie lange dauert die Stadtführung?",
+          "plays": 2,
+          "audio": "audio/exam-3/h13.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Die Stadtführung dauert eine Stunde, nicht zwei. Wir sind um vier Uhr zurück im Hotel."
+            }
+          ],
+          "transcript": "Die Stadtführung dauert eine Stunde, nicht zwei.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "label": "1 Stunde"
+            },
+            {
+              "id": "b",
+              "label": "2 Stunden"
+            },
+            {
+              "id": "c",
+              "label": "4 Stunden"
+            }
+          ],
+          "explanation": {
+            "de": "Eine Stunde. Zwei wird ausgeschlossen. 4 Uhr ist die Rückkehr.",
+            "en": "The tour lasts one hour."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 14,
+          "question": "An welchem Tag ist das Zimmer frei?",
+          "plays": 2,
+          "audio": "audio/exam-3/h14.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Am Freitag sind wir voll. Ein Zimmer ist am Samstag frei, ab 15 Uhr."
+            }
+          ],
+          "transcript": "Am Freitag voll. Ein Zimmer ist am Samstag frei.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "label": "Donnerstag"
+            },
+            {
+              "id": "b",
+              "label": "Freitag"
+            },
+            {
+              "id": "c",
+              "label": "Samstag"
+            }
+          ],
+          "explanation": {
+            "de": "Freitag voll, Samstag frei.",
+            "en": "A room is free on Saturday."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 15,
+          "question": "Was hat die Frau verloren?",
+          "plays": 2,
+          "audio": "audio/exam-3/h15.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Guten Tag, Fundbüro. Ich habe nicht das Handy verloren, sondern meine Fahrkarte. Im Bus Linie 16."
+            }
+          ],
+          "transcript": "Ich habe nicht das Handy verloren, sondern meine Fahrkarte.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "phone",
+              "label": "das Handy"
+            },
+            {
+              "id": "b",
+              "icon": "ticket",
+              "label": "die Fahrkarte"
+            },
+            {
+              "id": "c",
+              "icon": "bag",
+              "label": "die Tasche"
+            }
+          ],
+          "explanation": {
+            "de": "Die Fahrkarte ist weg, nicht das Handy.",
+            "en": "She lost her ticket, not the phone."
+          },
+          "style": "telefon"
+        }
+      ]
+    }
+  },
+  "lesen": {
+    "teil1": {
+      "texts": [
+        {
+          "body": "Hallo Nina,\n\nich bin im Hotel Rheinblick in Köln. Das Zimmer ist im 2. Stock und hat Blick auf den Dom. Das Frühstück ist von 7 bis 10 Uhr. Am Nachmittag gehe ich ins Museum. Ruf mich an, wenn du da bist.\n\nDein Marek",
+          "kind": "E-Mail"
+        },
+        {
+          "body": "Liebe Gäste,\n\ndas Konzert am Freitag fällt aus. Wir spielen am Sonntag um 17 Uhr in der Stadthalle. Karten bleiben gültig. Die Garderobe ist kostenlos.\n\nIhr Team MusikKöln",
+          "kind": "Aushang im Foyer"
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "statement": "Mareks Zimmer ist im Erdgeschoss.",
+          "answer": "-",
+          "explanation": {
+            "de": "Das Zimmer ist im 2. Stock.",
+            "en": "The room is on the 2nd floor."
+          }
+        },
+        {
+          "id": 2,
+          "statement": "Marek geht am Nachmittag ins Museum.",
+          "answer": "+",
+          "explanation": {
+            "de": "„Am Nachmittag gehe ich ins Museum.“",
+            "en": "He goes to the museum in the afternoon."
+          }
+        },
+        {
+          "id": 3,
+          "statement": "Das Konzert ist am Freitag.",
+          "answer": "-",
+          "explanation": {
+            "de": "Freitag fällt aus. Neu: Sonntag 17 Uhr.",
+            "en": "Friday is cancelled; it is on Sunday."
+          }
+        },
+        {
+          "id": 4,
+          "statement": "Alte Karten gelten weiter.",
+          "answer": "+",
+          "explanation": {
+            "de": "Karten bleiben gültig.",
+            "en": "Tickets remain valid."
+          }
+        },
+        {
+          "id": 5,
+          "statement": "Die Garderobe kostet extra.",
+          "answer": "-",
+          "explanation": {
+            "de": "Die Garderobe ist kostenlos.",
+            "en": "The cloakroom is free."
+          }
+        }
+      ],
+      "example": {
+        "statement": "Marek schläft in einem Hotel.",
+        "answer": "+"
+      }
+    },
+    "teil2": {
+      "items": [
+        {
+          "id": 6,
+          "prompt": "Sie möchten mit dem Schiff auf dem Rhein fahren.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Hotel Rheinblick",
+              "body": "Zimmer mit Rheinblick\nRestaurant und Terrasse\nKeine Schiffstouren"
+            },
+            {
+              "id": "b",
+              "title": "Köln-Düsseldorfer Schiffe",
+              "body": "Täglich nach Bonn und Düsseldorf\nFahrzeiten und Preise hier\nFamilienkarten"
+            }
+          ],
+          "explanation": {
+            "de": "Nur die Schiffe bieten Rheinfahrten. Das Hotel hat nur Zimmer.",
+            "en": "Only the ship company runs Rhine trips."
+          }
+        },
+        {
+          "id": 7,
+          "prompt": "Sie suchen ein Museum, das montags offen ist.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Schokoladenmuseum",
+              "body": "Mo–Fr 10–18 Uhr\nSa/So 11–19 Uhr\nAuch montags geöffnet"
+            },
+            {
+              "id": "b",
+              "title": "Stadtmuseum",
+              "body": "Di–So 10–17 Uhr\nMontag geschlossen"
+            }
+          ],
+          "explanation": {
+            "de": "Schokoladenmuseum ist montags offen. Stadtmuseum montags zu.",
+            "en": "The chocolate museum is open Monday."
+          }
+        },
+        {
+          "id": 8,
+          "prompt": "Sie möchten am Abend günstig Pizza essen.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Restaurant Dom",
+              "body": "Menü ab 38 €\nNur mittags geöffnet\nReservierung nötig"
+            },
+            {
+              "id": "b",
+              "title": "Pizzeria Luigi",
+              "body": "Pizza ab 8 €\nTäglich 17–23 Uhr\nAuch zum Mitnehmen"
+            }
+          ],
+          "explanation": {
+            "de": "Luigi: Pizza ab 8 € am Abend. Dom ist teuer und nur mittags.",
+            "en": "Luigi is cheap pizza in the evening."
+          }
+        },
+        {
+          "id": 9,
+          "prompt": "Sie brauchen ein Hotel mit Parkplatz, nah am Bahnhof.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Hotel Gleis 1",
+              "body": "2 Minuten zum Hauptbahnhof\nParkplatz 8 € / Nacht\nWLAN frei"
+            },
+            {
+              "id": "b",
+              "title": "Pension Garten",
+              "body": "Am Stadtrand, 40 Minuten mit dem Bus\nKein Parkplatz\nRuhiger Garten"
+            }
+          ],
+          "explanation": {
+            "de": "Hotel Gleis 1 ist nah am Bahnhof und hat Parkplatz.",
+            "en": "Gleis 1 is by the station and has parking."
+          }
+        },
+        {
+          "id": 10,
+          "prompt": "Sie möchten samstags um 10 Uhr ins Kino.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Kino Nachtlicht",
+              "body": "Vorstellungen nur ab 18 Uhr\nMo–So Abendprogramm"
+            },
+            {
+              "id": "b",
+              "title": "CineCity",
+              "body": "Erste Vorstellung 10.15 Uhr\nAuch samstags Familientag"
+            }
+          ],
+          "explanation": {
+            "de": "CineCity hat um 10.15 Uhr eine Vorstellung. Nachtlicht erst ab 18 Uhr.",
+            "en": "CineCity has a 10:15 showing."
+          }
+        }
+      ],
+      "example": {
+        "prompt": "Sie möchten wissen, wann der Zug nach Bonn fährt.",
+        "answer": "b",
+        "options": [
+          {
+            "id": "a",
+            "title": "www.stadt-koeln.de",
+            "body": "Bürgerservice\nAnmeldung, Ausweise, Termine\nÖffnungszeiten der Ämter"
+          },
+          {
+            "id": "b",
+            "title": "www.bahn-auskunft.de",
+            "body": "Fahrplan und Preise\nAlle Verbindungen\nJetzt Verbindung suchen"
+          }
+        ]
+      }
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "sign": "BAHNHOF\nAuf dem gesamten Gelände\nist das Rauchen verboten.",
+          "statement": "Sie dürfen hier eine Zigarette rauchen.",
+          "answer": "-",
+          "explanation": {
+            "de": "Rauchen ist auf dem ganzen Gelände verboten.",
+            "en": "No smoking anywhere on the station grounds."
+          },
+          "where": "Am Bahnhof"
+        },
+        {
+          "id": 12,
+          "sign": "MUSEUMSKASSE\nLetzter Einlass 16.30 Uhr\nHaus schließt 17.00 Uhr",
+          "statement": "Um 16.45 Uhr bekommen Sie noch eine Eintrittskarte.",
+          "answer": "-",
+          "explanation": {
+            "de": "Letzter Einlass 16.30. Um 16.45 ist es zu spät.",
+            "en": "Last admission is 16:30."
+          },
+          "where": "An der Museumskasse"
+        },
+        {
+          "id": 13,
+          "sign": "STADTFÜHRUNG\nTreffpunkt: Domplatte\nNur bei gutem Wetter",
+          "statement": "Bei Regen fällt die Führung aus.",
+          "answer": "+",
+          "explanation": {
+            "de": "Nur bei gutem Wetter = bei Regen keine Führung.",
+            "en": "The tour runs only in good weather."
+          },
+          "where": "Am Treffpunkt der Stadtführung"
+        },
+        {
+          "id": 14,
+          "sign": "JUGENDHERBERGE\nCheck-in 15–21 Uhr\nNach 21 Uhr klingeln",
+          "statement": "Nach 21 Uhr können Sie immer noch rein, wenn Sie klingeln.",
+          "answer": "+",
+          "explanation": {
+            "de": "Nach 21 Uhr: klingeln. Also ja, Sie kommen rein.",
+            "en": "After 21:00 you ring the bell."
+          },
+          "where": "An der Jugendherberge"
+        },
+        {
+          "id": 15,
+          "sign": "BUS 132 nach Bonn\nAbfahrt alle 20 Minuten\nNachtlinie nur am Wochenende",
+          "statement": "Unter der Woche fährt nachts kein Bus 132.",
+          "answer": "+",
+          "explanation": {
+            "de": "Die Nachtlinie fährt nur am Wochenende. Von Montag bis Freitag gibt es nachts also keinen Bus.",
+            "en": "The night service runs only at the weekend, so on weekdays there is no night bus."
+          },
+          "where": "An der Bushaltestelle"
+        }
+      ],
+      "example": {
+        "where": "Im Hotel",
+        "sign": "FRÜHSTÜCK\n7.00–10.00 Uhr\nim Erdgeschoss",
+        "statement": "Um 11 Uhr gibt es noch Frühstück.",
+        "answer": "-"
+      }
+    }
+  },
+  "schreiben": {
+    "teil1": {
+      "scenario": "Ihre Freundin, Clara Meier, macht Urlaub in Köln. Sie bucht für nächsten Sonntag eine Schifffahrt. Sie kommt mit ihrem Mann und den zwei Töchtern (6 und 9 Jahre). Frau Meier hat keine Kreditkarte.",
+      "fields": [
+        {
+          "id": "name",
+          "label": "Familienname, Vorname",
+          "prefill": "Meier, Clara"
+        },
+        {
+          "id": "f1",
+          "label": "1. Anzahl der Personen",
+          "accepted": [
+            "4",
+            "vier"
+          ]
+        },
+        {
+          "id": "f2",
+          "label": "2. Davon Kinder",
+          "accepted": [
+            "2",
+            "zwei"
+          ]
+        },
+        {
+          "id": "f3",
+          "label": "3. Urlaubsort",
+          "accepted": [
+            "Köln",
+            "Koeln",
+            "Cologne"
+          ]
+        },
+        {
+          "id": "f4",
+          "label": "4. Reisetag",
+          "accepted": [
+            "Sonntag"
+          ]
+        },
+        {
+          "id": "f5",
+          "label": "5. Zahlungsweise",
+          "accepted": [
+            "bar",
+            "Bar",
+            "ohne Kreditkarte",
+            "keine Kreditkarte"
+          ]
+        }
+      ],
+      "formTitle": "RHEIN-RUNDFAHRT · Anmeldung"
+    },
+    "teil2": {
+      "instruction": "Schreiben Sie an die Touristeninformation in Köln:",
+      "points": [
+        {
+          "label": "Sie kommen im Juli nach Köln.",
+          "keywords": [
+            "juli",
+            "komme",
+            "besuch"
+          ]
+        },
+        {
+          "label": "Sie möchten Informationen über Museen.",
+          "keywords": [
+            "museum",
+            "museen",
+            "information",
+            "infos"
+          ]
+        },
+        {
+          "label": "Sie brauchen eine Hoteladresse.",
+          "keywords": [
+            "hotel",
+            "adresse",
+            "unterkunft",
+            "zimmer"
+          ]
+        }
+      ],
+      "model": "Sehr geehrte Damen und Herren, ich komme im Juli nach Köln. Bitte schicken Sie mir Informationen über Museen. Ich brauche auch eine Hoteladresse. Viele Grüße, Clara Meier"
+    }
+  },
+  "sprechen": {
+    "teil1": {
+      "prompts": [
+        "Name?",
+        "Wohnort?",
+        "Urlaub?",
+        "Verkehrsmittel?",
+        "Sprachen?",
+        "Hobby?"
+      ],
+      "model": "Ich heiße … Ich wohne in … Im Urlaub fahre ich gern nach … Ich fahre mit dem Zug / Auto. Ich spreche … Mein Hobby ist Reisen / Fotografieren."
+    },
+    "teil2": {
+      "topic": "Freizeit und Reisen",
+      "cards": [
+        "Urlaub?",
+        "Zug oder Auto?",
+        "Hotel?",
+        "Museum?",
+        "Kino?",
+        "Sport?"
+      ],
+      "model": "Fahren Sie gern mit dem Zug? — Ja, der Zug ist schnell. Wo machen Sie Urlaub? — Am Meer."
+    },
+    "teil3": {
+      "prompt": "Sie sind im Hotel. Bitten Sie um ein Stadtplan: „Haben Sie bitte einen Stadtplan?“",
+      "model": "Guten Tag, haben Sie bitte einen Stadtplan? — Ja, hier bitte. / Einen Moment, ich hole einen."
+    }
+  }
+}

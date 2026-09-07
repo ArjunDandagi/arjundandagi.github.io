@@ -1,0 +1,913 @@
+{
+  "id": 1,
+  "title": "Prüfung 1 — Alltag in der Stadt",
+  "city": "Leipzig",
+  "hoeren": {
+    "teil1": {
+      "example": {
+        "question": "Welche Zimmernummer hat Herr Schneider?",
+        "answer": "c",
+        "options": [
+          {
+            "id": "a",
+            "type": "number",
+            "value": "12",
+            "label": "Zimmer 12"
+          },
+          {
+            "id": "b",
+            "type": "number",
+            "value": "20",
+            "label": "Zimmer 20"
+          },
+          {
+            "id": "c",
+            "type": "number",
+            "value": "22",
+            "label": "Zimmer 22"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": 1,
+          "question": "Was kostet das Brot?",
+          "plays": 2,
+          "audio": "audio/exam-1/h01.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Guten Tag. Ein Brot, bitte."
+            },
+            {
+              "voice": "mann",
+              "text": "Ja, gern. Das macht zwei Euro vierzig."
+            }
+          ],
+          "transcript": "Frau: Guten Tag. Ein Brot, bitte. Mann: Ja, gern. Das macht zwei Euro vierzig.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "type": "price",
+              "value": "1,20 €",
+              "label": "1,20 €"
+            },
+            {
+              "id": "b",
+              "type": "price",
+              "value": "2,40 €",
+              "label": "2,40 €"
+            },
+            {
+              "id": "c",
+              "type": "price",
+              "value": "3,10 €",
+              "label": "3,10 €"
+            }
+          ],
+          "explanation": {
+            "de": "Der Verkäufer sagt: „Das macht zwei Euro vierzig.“",
+            "en": "He says the bread costs €2.40."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 2,
+          "question": "Wie spät ist es?",
+          "plays": 2,
+          "audio": "audio/exam-1/h02.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Entschuldigung, wie spät ist es bitte?"
+            },
+            {
+              "voice": "frau",
+              "text": "Es ist halb neun."
+            }
+          ],
+          "transcript": "Mann: Entschuldigung, wie spät ist es bitte? Frau: Es ist halb neun.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "type": "clock",
+              "hour": 8,
+              "minute": 0,
+              "label": "8.00 Uhr"
+            },
+            {
+              "id": "b",
+              "type": "clock",
+              "hour": 8,
+              "minute": 30,
+              "label": "8.30 Uhr"
+            },
+            {
+              "id": "c",
+              "type": "clock",
+              "hour": 9,
+              "minute": 0,
+              "label": "9.00 Uhr"
+            }
+          ],
+          "explanation": {
+            "de": "Halb neun = 8.30 Uhr, nicht 9.00 Uhr.",
+            "en": "halb neun means 8:30, not 9:00."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 3,
+          "question": "Was trinkt der Mann?",
+          "plays": 2,
+          "audio": "audio/exam-1/h03.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Was möchten Sie trinken? Kaffee, Tee oder Wasser?"
+            },
+            {
+              "voice": "mann",
+              "text": "Für mich einen Tee, bitte. Kein Kaffee."
+            }
+          ],
+          "transcript": "Frau: Was möchten Sie trinken? Kaffee, Tee oder Wasser? Mann: Für mich einen Tee, bitte. Kein Kaffee.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "icon": "water",
+              "label": "Wasser"
+            },
+            {
+              "id": "b",
+              "icon": "coffee",
+              "label": "Kaffee"
+            },
+            {
+              "id": "c",
+              "icon": "tea",
+              "label": "Tee"
+            }
+          ],
+          "explanation": {
+            "de": "Er bestellt Tee und sagt ausdrücklich: kein Kaffee.",
+            "en": "He orders tea and rejects coffee."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 4,
+          "question": "Wohin geht die Frau zuerst?",
+          "plays": 2,
+          "audio": "audio/exam-1/h04.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Kommst du mit ins Café?"
+            },
+            {
+              "voice": "frau",
+              "text": "Später. Ich muss zuerst zur Post. Ich brauche Briefmarken."
+            }
+          ],
+          "transcript": "Mann: Kommst du mit ins Café? Frau: Später. Ich muss zuerst zur Post. Ich brauche Briefmarken.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "bank",
+              "label": "zur Bank"
+            },
+            {
+              "id": "b",
+              "icon": "post",
+              "label": "zur Post"
+            },
+            {
+              "id": "c",
+              "icon": "pharmacy",
+              "label": "zur Apotheke"
+            }
+          ],
+          "explanation": {
+            "de": "Sie geht zuerst zur Post, weil sie Briefmarken braucht.",
+            "en": "She goes to the post office first for stamps."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 5,
+          "question": "Von welchem Gleis fährt der Zug?",
+          "plays": 2,
+          "audio": "audio/exam-1/h05.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Achtung am Gleis. Der Zug nach Köln fährt heute von Gleis sechs."
+            }
+          ],
+          "transcript": "Durchsage: Achtung am Gleis. Der Zug nach Köln fährt heute von Gleis sechs.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "type": "number",
+              "value": "3",
+              "label": "Gleis 3"
+            },
+            {
+              "id": "b",
+              "type": "number",
+              "value": "6",
+              "label": "Gleis 6"
+            },
+            {
+              "id": "c",
+              "type": "number",
+              "value": "8",
+              "label": "Gleis 8"
+            }
+          ],
+          "explanation": {
+            "de": "Die Durchsage sagt klar: Gleis sechs.",
+            "en": "The announcement says platform 6."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 6,
+          "question": "Wie ist das Wetter?",
+          "plays": 2,
+          "audio": "audio/exam-1/h06.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Gehen wir zu Fuß zum Markt?"
+            },
+            {
+              "voice": "frau",
+              "text": "Nein. Nimm den Schirm. Es regnet den ganzen Tag."
+            }
+          ],
+          "transcript": "Mann: Gehen wir zu Fuß zum Markt? Frau: Nein. Nimm den Schirm. Es regnet den ganzen Tag.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "sun",
+              "label": "Sonne"
+            },
+            {
+              "id": "b",
+              "icon": "rain",
+              "label": "Regen"
+            },
+            {
+              "id": "c",
+              "icon": "snow",
+              "label": "Schnee"
+            }
+          ],
+          "explanation": {
+            "de": "Sie sagt: Es regnet. Deshalb braucht er den Schirm.",
+            "en": "She says it is raining all day."
+          },
+          "style": "dialog"
+        }
+      ]
+    },
+    "teil2": {
+      "example": {
+        "statement": "Die Fahrgäste sollen zum Schalter kommen.",
+        "answer": "+"
+      },
+      "items": [
+        {
+          "id": 7,
+          "statement": "Das Geschäft schließt um 18 Uhr.",
+          "plays": 1,
+          "audio": "audio/exam-1/h07.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Liebe Kunden, unser Supermarkt schließt heute um zwanzig Uhr. Bitte gehen Sie zur Kasse."
+            }
+          ],
+          "transcript": "Liebe Kunden, unser Supermarkt schließt heute um zwanzig Uhr.",
+          "answer": "-",
+          "explanation": {
+            "de": "Zwanzig Uhr ist 20.00, nicht 18.00.",
+            "en": "The shop closes at 20:00, not 18:00."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 8,
+          "statement": "Der Zug hat Verspätung.",
+          "plays": 1,
+          "audio": "audio/exam-1/h08.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Achtung, der Regionalzug nach Augsburg hat heute zehn Minuten Verspätung."
+            }
+          ],
+          "transcript": "Der Regionalzug nach Augsburg hat heute zehn Minuten Verspätung.",
+          "answer": "+",
+          "explanation": {
+            "de": "Zehn Minuten Verspätung bedeutet: der Zug ist spät.",
+            "en": "Ten minutes late means the train is delayed."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 9,
+          "statement": "Der Deutschkurs ist in Raum 12.",
+          "plays": 1,
+          "audio": "audio/exam-1/h09.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Achtung bitte. Alle Teilnehmer vom Deutschkurs gehen heute nach Raum vier."
+            }
+          ],
+          "transcript": "Alle Teilnehmer vom Deutschkurs gehen heute nach Raum vier.",
+          "answer": "-",
+          "explanation": {
+            "de": "Der Kurs ist in Raum 4, nicht in Raum 12.",
+            "en": "The class is in room 4, not 12."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 10,
+          "statement": "Am Sonntag können Sie von 10 bis 12 Uhr in die Bibliothek gehen.",
+          "plays": 1,
+          "audio": "audio/exam-1/h10.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Die Stadtbibliothek ist am Sonntag von zehn bis zwölf Uhr geöffnet."
+            }
+          ],
+          "transcript": "Die Stadtbibliothek ist am Sonntag von zehn bis zwölf Uhr geöffnet.",
+          "answer": "+",
+          "explanation": {
+            "de": "Geöffnet von 10 bis 12 Uhr am Sonntag — die Aussage ist richtig.",
+            "en": "Open Sunday 10–12, so the statement is true."
+          },
+          "style": "durchsage"
+        }
+      ]
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "question": "Die Nummer ist:",
+          "plays": 2,
+          "audio": "audio/exam-1/h11.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Hallo, hier ist Maria. Meine neue Handynummer ist: null eins sieben sechs, fünf fünf zwei, acht acht drei eins. Bis später!"
+            }
+          ],
+          "transcript": "Meine neue Handynummer ist: 0176 552 8831.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "label": "0176 552 8831"
+            },
+            {
+              "id": "b",
+              "label": "0176 525 8831"
+            },
+            {
+              "id": "c",
+              "label": "0167 552 8831"
+            }
+          ],
+          "explanation": {
+            "de": "0176 — 552 — 8831. Nicht 525 und nicht 0167.",
+            "en": "Listen for 0176 552 8831."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 12,
+          "question": "Wo treffen sie sich?",
+          "plays": 2,
+          "audio": "audio/exam-1/h12.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Hallo Paul, hier ist Jonas. Wir treffen uns um drei im Café am Markt. Nicht im Park, okay? Tschüss."
+            }
+          ],
+          "transcript": "Wir treffen uns um drei im Café am Markt. Nicht im Park.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "icon": "cafe",
+              "label": "im Café am Markt"
+            },
+            {
+              "id": "b",
+              "icon": "library",
+              "label": "an der Bibliothek"
+            },
+            {
+              "id": "c",
+              "icon": "park",
+              "label": "im Park"
+            }
+          ],
+          "explanation": {
+            "de": "Treffpunkt ist das Café am Markt. Der Park wird ausgeschlossen.",
+            "en": "They meet at the café, not the park."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 13,
+          "question": "Wie lange will die Frau noch warten?",
+          "plays": 2,
+          "audio": "audio/exam-1/h13.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Hallo, ich bin schon da. Ich warte noch eine Viertelstunde. Dann fahre ich nach Hause."
+            }
+          ],
+          "transcript": "Ich warte noch eine Viertelstunde.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "label": "5 Minuten"
+            },
+            {
+              "id": "b",
+              "label": "15 Minuten"
+            },
+            {
+              "id": "c",
+              "label": "50 Minuten"
+            }
+          ],
+          "explanation": {
+            "de": "Eine Viertelstunde = 15 Minuten.",
+            "en": "A quarter of an hour is 15 minutes."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 14,
+          "question": "An welchem Tag kommt der Mann?",
+          "plays": 2,
+          "audio": "audio/exam-1/h14.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Guten Tag, hier ist Herr Berger. Ich kann nicht am Montag kommen. Ich komme am Freitag, gegen zehn Uhr."
+            }
+          ],
+          "transcript": "Ich kann nicht am Montag kommen. Ich komme am Freitag.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "label": "Montag"
+            },
+            {
+              "id": "b",
+              "label": "Mittwoch"
+            },
+            {
+              "id": "c",
+              "label": "Freitag"
+            }
+          ],
+          "explanation": {
+            "de": "Montag geht nicht. Er kommt am Freitag.",
+            "en": "Monday is impossible; he comes Friday."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 15,
+          "question": "Was ist kaputt?",
+          "plays": 2,
+          "audio": "audio/exam-1/h15.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Guten Morgen, Frau Stein. Mein Fahrrad ist kaputt. Ich fahre heute mit dem Bus zur Arbeit."
+            }
+          ],
+          "transcript": "Mein Fahrrad ist kaputt. Ich fahre heute mit dem Bus.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "car",
+              "label": "das Auto"
+            },
+            {
+              "id": "b",
+              "icon": "bike",
+              "label": "das Fahrrad"
+            },
+            {
+              "id": "c",
+              "icon": "bus",
+              "label": "der Bus"
+            }
+          ],
+          "explanation": {
+            "de": "Das Fahrrad ist kaputt. Der Bus funktioniert — damit fährt sie.",
+            "en": "The bike is broken; she takes the bus instead."
+          },
+          "style": "telefon"
+        }
+      ]
+    }
+  },
+  "lesen": {
+    "teil1": {
+      "texts": [
+        {
+          "body": "Hallo Tim,\n\nmein Zug kommt um 16.45 Uhr in Leipzig an. Ich warte am Ausgang. Du kannst mich den ganzen Nachmittag auf meinem Handy erreichen: 0151 440 2288.\n\nLiebe Grüße\nSara",
+          "kind": "E-Mail"
+        },
+        {
+          "body": "Liebe Anna, lieber Mark,\n\nam Samstag habe ich Geburtstag. Die Party ist am Samstagabend um 18 Uhr in meiner Wohnung. Es kommen viele Freunde. Bringt bitte einen Salat mit. Wir feiern nicht im Garten, sondern in der Wohnung.\n\nBis Samstag\nLena",
+          "kind": "Einladung"
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "statement": "Saras Zug kommt vor 16.00 Uhr an.",
+          "answer": "-",
+          "explanation": {
+            "de": "Der Zug kommt um 16.45 Uhr, also nach 16.00 Uhr.",
+            "en": "The train arrives at 16:45, after 16:00."
+          }
+        },
+        {
+          "id": 2,
+          "statement": "Sara wartet am Ausgang.",
+          "answer": "+",
+          "explanation": {
+            "de": "Sie schreibt: Ich warte am Ausgang.",
+            "en": "She waits at the exit."
+          }
+        },
+        {
+          "id": 3,
+          "statement": "Lenas Geburtstag ist am Samstag.",
+          "answer": "+",
+          "explanation": {
+            "de": "„Am Samstag habe ich Geburtstag.“",
+            "en": "The birthday is on Saturday."
+          }
+        },
+        {
+          "id": 4,
+          "statement": "Nur zwei oder drei Leute kommen zur Party.",
+          "answer": "-",
+          "explanation": {
+            "de": "Es kommen viele Freunde, nicht nur zwei oder drei.",
+            "en": "Many friends are coming, not two or three."
+          }
+        },
+        {
+          "id": 5,
+          "statement": "Die Party ist im Garten.",
+          "answer": "-",
+          "explanation": {
+            "de": "Sie feiern nicht im Garten, sondern in der Wohnung.",
+            "en": "The party is in the apartment, not the garden."
+          }
+        }
+      ],
+      "example": {
+        "statement": "Sara kommt mit dem Zug nach Leipzig.",
+        "answer": "+"
+      }
+    },
+    "teil2": {
+      "items": [
+        {
+          "id": 6,
+          "prompt": "Sie möchten ein günstiges Hotel in der Stadtmitte.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Hotel am Park",
+              "body": "Ruhig am Stadtrand\nZimmer ab 89 €\nParkplatz frei\nBus in die Stadt: 25 Minuten"
+            },
+            {
+              "id": "b",
+              "title": "Hotel Zentrum",
+              "body": "In der Stadtmitte, 3 Minuten zum Bahnhof\nZimmer ab 55 €\nFrühstück 8 €"
+            }
+          ],
+          "explanation": {
+            "de": "Nur Hotel Zentrum ist in der Stadtmitte und günstiger.",
+            "en": "Only Hotel Zentrum is central and cheaper."
+          }
+        },
+        {
+          "id": 7,
+          "prompt": "Sie möchten ein gebrauchtes Fahrrad kaufen.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Autohaus Keller",
+              "body": "Gebrauchtwagen\nTÜV neu\nFinanzierung möglich\nMo–Fr 9–18 Uhr"
+            },
+            {
+              "id": "b",
+              "title": "RadMarkt Leipzig",
+              "body": "Neue und gebrauchte Fahrräder\nHelme und Schlösser\nReparatur in 24 Stunden"
+            }
+          ],
+          "explanation": {
+            "de": "RadMarkt verkauft gebrauchte Fahrräder. Autohaus verkauft Autos.",
+            "en": "The bike shop sells used bikes; the other is a car dealer."
+          }
+        },
+        {
+          "id": 8,
+          "prompt": "Sie möchten abends Deutsch lernen.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Sprachschule Nova",
+              "body": "Deutsch A1–B1\nAbendkurse 18.00–20.00 Uhr\nKleine Gruppen"
+            },
+            {
+              "id": "b",
+              "title": "Kinderakademie Sonnenschein",
+              "body": "Kurse nur vormittags\nFür Kinder von 6 bis 10 Jahren\nMalen, Singen, Sport"
+            }
+          ],
+          "explanation": {
+            "de": "Nova hat Abendkurse für Deutsch. Die Kinderakademie ist vormittags für Kinder.",
+            "en": "Nova has evening German classes."
+          }
+        },
+        {
+          "id": 9,
+          "prompt": "Sie sind in München und möchten vor 12.00 Uhr in Nürnberg sein.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Zug A",
+              "body": "ab München 08.12\nan Nürnberg 09.55\nDauer 1:43 · 0 Umsteigen"
+            },
+            {
+              "id": "b",
+              "title": "Zug B",
+              "body": "ab München 12.05\nan Nürnberg 13.48\nDauer 1:43 · 0 Umsteigen"
+            }
+          ],
+          "explanation": {
+            "de": "Zug A kommt um 9.55 an, also vor 12.00. Zug B fährt erst um 12.05.",
+            "en": "Train A arrives 9:55, before noon."
+          }
+        },
+        {
+          "id": 10,
+          "prompt": "Sie möchten am Sonntag im Restaurant essen.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Trattoria Bella",
+              "body": "Mo–Sa 12.00–22.00 Uhr\nSonntag Ruhetag\nPizza und Pasta"
+            },
+            {
+              "id": "b",
+              "title": "Gasthaus Adler",
+              "body": "Täglich 11.30–21.00 Uhr\nAuch sonntags warmes Essen\nGartenplatz"
+            }
+          ],
+          "explanation": {
+            "de": "Bella hat sonntags Ruhetag. Adler ist täglich offen.",
+            "en": "Adler is open daily including Sunday."
+          }
+        }
+      ],
+      "example": {
+        "prompt": "Sie wollen wissen: Wie wird das Wetter morgen?",
+        "answer": "b",
+        "options": [
+          {
+            "id": "a",
+            "title": "www.kino-leipzig.de",
+            "body": "Das Programm für diese Woche\nAlle Filme, alle Zeiten\nKarten online"
+          },
+          {
+            "id": "b",
+            "title": "www.wetter-heute.de",
+            "body": "Wetter und Klima\n· Vorhersage 7 Tage\n· Warnungen\n· Regenradar"
+          }
+        ]
+      }
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "sign": "STADTBIBLIOTHEK\nMo–Fr 10.00–18.00\nSa 10.00–13.00\nSo geschlossen",
+          "statement": "Am Samstagnachmittag können Sie hier Bücher ausleihen.",
+          "answer": "-",
+          "explanation": {
+            "de": "Samstag nur bis 13.00 Uhr. Nachmittag ist sie zu.",
+            "en": "Saturday only until 13:00, so not in the afternoon."
+          },
+          "where": "An der Stadtbibliothek"
+        },
+        {
+          "id": 12,
+          "sign": "SPIELPLATZ\nHunde verboten",
+          "statement": "Hunde dürfen nicht auf diesen Spielplatz.",
+          "answer": "+",
+          "explanation": {
+            "de": "„Hunde verboten“ heißt: keine Hunde.",
+            "en": "Dogs are not allowed."
+          },
+          "where": "Am Spielplatz"
+        },
+        {
+          "id": 13,
+          "sign": "Im ganzen Gebäude\nist das Rauchen\nverboten.",
+          "statement": "Sie können hier eine Zigarette rauchen.",
+          "answer": "-",
+          "explanation": {
+            "de": "Rauchen ist im ganzen Gebäude verboten.",
+            "en": "Smoking is forbidden in the whole building."
+          },
+          "where": "Im Treppenhaus"
+        },
+        {
+          "id": 14,
+          "sign": "MUSEUM\nDienstag–Sonntag 10–17 Uhr\nMontag geschlossen",
+          "statement": "Am Montag ist das Museum zu.",
+          "answer": "+",
+          "explanation": {
+            "de": "Montag geschlossen = am Montag zu.",
+            "en": "Closed on Monday."
+          },
+          "where": "Am Museum"
+        },
+        {
+          "id": 15,
+          "sign": "PARKEN\nnur mit Parkschein",
+          "statement": "Hier können Sie ohne Ticket parken.",
+          "answer": "-",
+          "explanation": {
+            "de": "Nur mit Parkschein — ohne Ticket geht es nicht.",
+            "en": "A parking ticket is required."
+          },
+          "where": "Am Parkplatz"
+        }
+      ],
+      "example": {
+        "where": "An der Bäckerei",
+        "sign": "BÄCKEREI MOHR\nHeute wegen Urlaub\ngeschlossen",
+        "statement": "Sie können hier heute Brot kaufen.",
+        "answer": "-"
+      }
+    }
+  },
+  "schreiben": {
+    "teil1": {
+      "scenario": "Ihr Freund, Omar Khalil, wohnt in Leipzig. Er bucht für nächsten Samstag einen Kochkurs. Er kommt mit seiner Frau und seiner Tochter (7 Jahre alt). Herr Khalil zahlt bar, nicht mit Kreditkarte. Schreiben Sie die fünf fehlenden Informationen in das Formular.",
+      "fields": [
+        {
+          "id": "name",
+          "label": "Familienname, Vorname",
+          "prefill": "Khalil, Omar"
+        },
+        {
+          "id": "f1",
+          "label": "1. Anzahl der Personen",
+          "accepted": [
+            "3",
+            "drei"
+          ]
+        },
+        {
+          "id": "f2",
+          "label": "2. Davon Kinder",
+          "accepted": [
+            "1",
+            "ein",
+            "eins"
+          ]
+        },
+        {
+          "id": "f3",
+          "label": "3. Wohnort",
+          "accepted": [
+            "Leipzig"
+          ]
+        },
+        {
+          "id": "f4",
+          "label": "4. Kurstag",
+          "accepted": [
+            "Samstag",
+            "Sonnabend"
+          ]
+        },
+        {
+          "id": "f5",
+          "label": "5. Zahlungsweise",
+          "accepted": [
+            "bar",
+            "Bar",
+            "cash",
+            "nicht Kreditkarte"
+          ]
+        }
+      ],
+      "formTitle": "KOCHKURS LEIPZIG · Anmeldung"
+    },
+    "teil2": {
+      "instruction": "Schreiben Sie an Ihre Freundin Julia:",
+      "points": [
+        {
+          "label": "Sie haben eine neue Wohnung.",
+          "keywords": [
+            "wohnung",
+            "neue wohnung",
+            "umgezogen",
+            "ziehe"
+          ]
+        },
+        {
+          "label": "Die Adresse ist Bahnhofstraße 10.",
+          "keywords": [
+            "bahnhofstrasse 10",
+            "bahnhofstr",
+            "adresse"
+          ]
+        },
+        {
+          "label": "Laden Sie Julia am Sonntag ein.",
+          "keywords": [
+            "sonntag",
+            "einladen",
+            "komm",
+            "besuch"
+          ]
+        }
+      ],
+      "model": "Liebe Julia, ich habe eine neue Wohnung in Leipzig. Die Adresse ist Bahnhofstraße 10. Die Wohnung ist hell und ruhig. Kommst du am Sonntag zu mir? Wir können zusammen Kaffee trinken. Liebe Grüße, Amir"
+    }
+  },
+  "sprechen": {
+    "teil1": {
+      "prompts": [
+        "Name?",
+        "Alter?",
+        "Land?",
+        "Wohnort?",
+        "Sprachen?",
+        "Beruf?"
+      ],
+      "model": "Ich heiße … Ich bin … Jahre alt. Ich komme aus … Ich wohne in … Ich spreche … und ein bisschen Deutsch. Ich bin … / ich lerne Deutsch."
+    },
+    "teil2": {
+      "topic": "Essen und Trinken",
+      "cards": [
+        "Frühstück?",
+        "Lieblingsessen?",
+        "Vegetarisch?",
+        "Restaurant?",
+        "Kochen?",
+        "Kaffee oder Tee?"
+      ],
+      "model": "Was essen Sie am Morgen? — Ich esse Brot und Käse. Trinken Sie Kaffee? — Ja, einen Kaffee, bitte."
+    },
+    "teil3": {
+      "prompt": "Es ist heiß. Bitten Sie: „Können Sie bitte das Fenster öffnen?“ Reagieren Sie auch: „Ja, gern.“ / „Einen Moment.“",
+      "model": "Entschuldigung, können Sie bitte das Fenster öffnen? — Ja, gern. / Tut mir leid, das Fenster ist kaputt."
+    }
+  }
+}

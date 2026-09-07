@@ -1,0 +1,913 @@
+{
+  "id": 4,
+  "title": "Prüfung 4 — Arbeit und Termine",
+  "city": "Berlin",
+  "hoeren": {
+    "teil1": {
+      "example": {
+        "question": "Wohin muss Herr Lang?",
+        "answer": "b",
+        "options": [
+          {
+            "id": "a",
+            "icon": "post",
+            "label": "zur Post"
+          },
+          {
+            "id": "b",
+            "icon": "work",
+            "label": "zur Arbeit"
+          },
+          {
+            "id": "c",
+            "icon": "doctor",
+            "label": "zum Arzt"
+          }
+        ]
+      },
+      "items": [
+        {
+          "id": 1,
+          "question": "Was kostet das Ticket mit Bahncard?",
+          "plays": 2,
+          "audio": "audio/exam-4/h01.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Ein Ticket nach Potsdam, bitte. Ich habe eine Bahncard."
+            },
+            {
+              "voice": "mann",
+              "text": "Mit Bahncard acht Euro zwanzig. Ohne Bahncard sechzehn Euro."
+            }
+          ],
+          "transcript": "Mit Bahncard acht Euro zwanzig.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "type": "price",
+              "value": "8,20 €",
+              "label": "8,20 €"
+            },
+            {
+              "id": "b",
+              "type": "price",
+              "value": "12,80 €",
+              "label": "12,80 €"
+            },
+            {
+              "id": "c",
+              "type": "price",
+              "value": "16,00 €",
+              "label": "16,00 €"
+            }
+          ],
+          "explanation": {
+            "de": "Sie hat eine Bahncard: 8,20 €. 16 € wäre ohne Karte.",
+            "en": "With Bahncard the ticket is €8.20."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 2,
+          "question": "Wann ist der Termin?",
+          "plays": 2,
+          "audio": "audio/exam-4/h02.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Ist der Termin um neun?"
+            },
+            {
+              "voice": "frau",
+              "text": "Nein, um halb zehn. Bitte nicht zu spät kommen."
+            }
+          ],
+          "transcript": "Nein, um halb zehn.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "type": "clock",
+              "hour": 9,
+              "minute": 0,
+              "label": "9.00 Uhr"
+            },
+            {
+              "id": "b",
+              "type": "clock",
+              "hour": 9,
+              "minute": 30,
+              "label": "9.30 Uhr"
+            },
+            {
+              "id": "c",
+              "type": "clock",
+              "hour": 10,
+              "minute": 0,
+              "label": "10.00 Uhr"
+            }
+          ],
+          "explanation": {
+            "de": "Halb zehn = 9.30 Uhr.",
+            "en": "halb zehn is 9:30."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 3,
+          "question": "Was holt der Mann in der Pause?",
+          "plays": 2,
+          "audio": "audio/exam-4/h03.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Holst du Brot oder Äpfel?"
+            },
+            {
+              "voice": "mann",
+              "text": "Äpfel. Brot haben wir noch."
+            }
+          ],
+          "transcript": "Äpfel. Brot haben wir noch.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "icon": "bread",
+              "label": "Brot"
+            },
+            {
+              "id": "b",
+              "icon": "milk",
+              "label": "Milch"
+            },
+            {
+              "id": "c",
+              "icon": "apples",
+              "label": "Äpfel"
+            }
+          ],
+          "explanation": {
+            "de": "Er holt Äpfel. Brot ist schon da.",
+            "en": "He gets apples, not bread."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 4,
+          "question": "Wohin geht die Frau in der Mittagspause?",
+          "plays": 2,
+          "audio": "audio/exam-4/h04.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Gehst du zur Bank oder zur Post?"
+            },
+            {
+              "voice": "frau",
+              "text": "Zur Post. Das Paket muss heute noch weg."
+            }
+          ],
+          "transcript": "Zur Post. Das Paket muss heute noch weg.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "bank",
+              "label": "zur Bank"
+            },
+            {
+              "id": "b",
+              "icon": "post",
+              "label": "zur Post"
+            },
+            {
+              "id": "c",
+              "icon": "market",
+              "label": "zum Markt"
+            }
+          ],
+          "explanation": {
+            "de": "Sie geht zur Post wegen des Pakets.",
+            "en": "She goes to the post office."
+          },
+          "style": "dialog"
+        },
+        {
+          "id": 5,
+          "question": "In welchem Büro ist die Besprechung?",
+          "plays": 2,
+          "audio": "audio/exam-4/h05.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Die Besprechung ist nicht in Büro 2 und nicht in Büro 5. Bitte kommen Sie nach Büro 7."
+            }
+          ],
+          "transcript": "Bitte kommen Sie nach Büro 7.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "type": "number",
+              "value": "2",
+              "label": "Büro 2"
+            },
+            {
+              "id": "b",
+              "type": "number",
+              "value": "5",
+              "label": "Büro 5"
+            },
+            {
+              "id": "c",
+              "type": "number",
+              "value": "7",
+              "label": "Büro 7"
+            }
+          ],
+          "explanation": {
+            "de": "Büro 7. 2 und 5 werden ausgeschlossen.",
+            "en": "The meeting is in office 7."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 6,
+          "question": "Wie fährt Herr Klein zur Arbeit?",
+          "plays": 2,
+          "audio": "audio/exam-4/h06.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Nimmst du das Auto?"
+            },
+            {
+              "voice": "mann",
+              "text": "Nein, das Auto bleibt in der Werkstatt. Ich fahre mit dem Fahrrad."
+            }
+          ],
+          "transcript": "Das Auto bleibt in der Werkstatt. Ich fahre mit dem Fahrrad.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "car",
+              "label": "mit dem Auto"
+            },
+            {
+              "id": "b",
+              "icon": "bike",
+              "label": "mit dem Fahrrad"
+            },
+            {
+              "id": "c",
+              "icon": "bus",
+              "label": "mit dem Bus"
+            }
+          ],
+          "explanation": {
+            "de": "Auto in der Werkstatt. Er fährt mit dem Fahrrad.",
+            "en": "The car is in the garage; he cycles."
+          },
+          "style": "dialog"
+        }
+      ]
+    },
+    "teil2": {
+      "example": {
+        "statement": "Alle Mitarbeiter sollen in die Kantine kommen.",
+        "answer": "+"
+      },
+      "items": [
+        {
+          "id": 7,
+          "statement": "Die Apotheke ist in der Mittagspause zu.",
+          "plays": 1,
+          "audio": "audio/exam-4/h07.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Die Stadtapotheke hat heute durchgehend geöffnet, auch in der Mittagszeit von zwölf bis vierzehn Uhr."
+            }
+          ],
+          "transcript": "Durchgehend geöffnet, auch von 12 bis 14 Uhr.",
+          "answer": "-",
+          "explanation": {
+            "de": "Durchgehend geöffnet = in der Mittagspause nicht zu.",
+            "en": "It stays open over lunch."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 8,
+          "statement": "Der Kurs beginnt in Raum 3.",
+          "plays": 1,
+          "audio": "audio/exam-4/h08.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Der Computerkurs beginnt pünktlich um acht Uhr in Raum drei."
+            }
+          ],
+          "transcript": "Der Computerkurs beginnt um acht Uhr in Raum drei.",
+          "answer": "+",
+          "explanation": {
+            "de": "Raum 3 steht in der Durchsage.",
+            "en": "The course starts in room 3."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 9,
+          "statement": "Heute können Sie am Schalter 1 ein Paket abholen.",
+          "plays": 1,
+          "audio": "audio/exam-4/h09.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Schalter 1 ist heute geschlossen. Pakete bitte an Schalter 4 abholen."
+            }
+          ],
+          "transcript": "Schalter 1 geschlossen. Pakete an Schalter 4.",
+          "answer": "-",
+          "explanation": {
+            "de": "Schalter 1 ist zu. Pakete an Schalter 4.",
+            "en": "Counter 1 is closed."
+          },
+          "style": "durchsage"
+        },
+        {
+          "id": 10,
+          "statement": "Montags bis freitags öffnet das Studio um 6 Uhr.",
+          "plays": 1,
+          "audio": "audio/exam-4/h10.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Unser Studio öffnet montags bis freitags um sechs Uhr. Am Wochenende erst um neun."
+            }
+          ],
+          "transcript": "Mo–Fr um sechs Uhr offen. Am Wochenende um neun.",
+          "answer": "+",
+          "explanation": {
+            "de": "Die Durchsage: montags bis freitags um sechs Uhr.",
+            "en": "Weekdays it opens at 6:00."
+          },
+          "style": "durchsage"
+        }
+      ]
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "question": "Die Durchwahl ist:",
+          "plays": 2,
+          "audio": "audio/exam-4/h11.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Guten Tag, Firma Berger. Meine Durchwahl ist zwei vier sieben. Ich wiederhole: zwei vier sieben."
+            }
+          ],
+          "transcript": "Meine Durchwahl ist zwei vier sieben.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "label": "247"
+            },
+            {
+              "id": "b",
+              "label": "274"
+            },
+            {
+              "id": "c",
+              "label": "427"
+            }
+          ],
+          "explanation": {
+            "de": "Zwei vier sieben = 247.",
+            "en": "Extension 247."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 12,
+          "question": "Wo trifft das Team den Kunden?",
+          "plays": 2,
+          "audio": "audio/exam-4/h12.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Wir treffen den Kunden nicht im Büro. Wir warten im Café gegenüber vom Bahnhof."
+            }
+          ],
+          "transcript": "Wir warten im Café gegenüber vom Bahnhof.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "work",
+              "label": "im Büro"
+            },
+            {
+              "id": "b",
+              "icon": "cafe",
+              "label": "im Café am Bahnhof"
+            },
+            {
+              "id": "c",
+              "icon": "park",
+              "label": "im Park"
+            }
+          ],
+          "explanation": {
+            "de": "Im Café gegenüber vom Bahnhof, nicht im Büro.",
+            "en": "They meet at the café by the station."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 13,
+          "question": "Wie lange dauert die Pause?",
+          "plays": 2,
+          "audio": "audio/exam-4/h13.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "Die Pause dauert heute keine halbe Stunde. Nur fünfzehn Minuten, dann geht es weiter."
+            }
+          ],
+          "transcript": "Die Pause dauert heute keine halbe Stunde. Nur fünfzehn Minuten.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "label": "5 Minuten"
+            },
+            {
+              "id": "b",
+              "label": "15 Minuten"
+            },
+            {
+              "id": "c",
+              "label": "30 Minuten"
+            }
+          ],
+          "explanation": {
+            "de": "15 Minuten. Eine halbe Stunde (30) wird ausgeschlossen.",
+            "en": "The break is 15 minutes."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 14,
+          "question": "An welchem Tag ist der Deutschkurs?",
+          "plays": 2,
+          "audio": "audio/exam-4/h14.m4a",
+          "lines": [
+            {
+              "voice": "mann",
+              "text": "Der Kurs ist nicht am Dienstag. Wir treffen uns am Donnerstag um 18 Uhr."
+            }
+          ],
+          "transcript": "Nicht am Dienstag. Am Donnerstag um 18 Uhr.",
+          "answer": "c",
+          "options": [
+            {
+              "id": "a",
+              "label": "Montag"
+            },
+            {
+              "id": "b",
+              "label": "Dienstag"
+            },
+            {
+              "id": "c",
+              "label": "Donnerstag"
+            }
+          ],
+          "explanation": {
+            "de": "Donnerstag, nicht Dienstag.",
+            "en": "The class is on Thursday."
+          },
+          "style": "telefon"
+        },
+        {
+          "id": 15,
+          "question": "Was ist im Büro kaputt?",
+          "plays": 2,
+          "audio": "audio/exam-4/h15.m4a",
+          "lines": [
+            {
+              "voice": "frau",
+              "text": "IT-Support, bitte. Der Computer geht nicht. Telefon und Drucker funktionieren."
+            }
+          ],
+          "transcript": "Der Computer geht nicht. Telefon und Drucker funktionieren.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "icon": "phone",
+              "label": "das Telefon"
+            },
+            {
+              "id": "b",
+              "icon": "computer",
+              "label": "der Computer"
+            },
+            {
+              "id": "c",
+              "icon": "tv",
+              "label": "der Fernseher"
+            }
+          ],
+          "explanation": {
+            "de": "Nur der Computer ist kaputt.",
+            "en": "Only the computer is broken."
+          },
+          "style": "telefon"
+        }
+      ]
+    }
+  },
+  "lesen": {
+    "teil1": {
+      "texts": [
+        {
+          "body": "Hallo Team,\n\nich komme heute später, gegen 10.30 Uhr. Der Zahnarzttermin ist um 9.00 Uhr. Bitte legt die Post auf meinen Schreibtisch. Die Besprechung um 14 Uhr kann stattfinden.\n\nViele Grüße\nNora",
+          "kind": "Notiz im Büro"
+        },
+        {
+          "body": "Lieber Farid,\n\ndanke für die Einladung. Am Mittwoch kann ich nicht. Am Freitag nach der Arbeit habe ich Zeit, ab 18 Uhr. Wir können uns im Café am Alexanderplatz treffen.\n\nDeine Amina",
+          "kind": "E-Mail"
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "statement": "Nora ist um 8.00 Uhr im Büro.",
+          "answer": "-",
+          "explanation": {
+            "de": "Sie kommt gegen 10.30 Uhr, weil sie zum Zahnarzt muss.",
+            "en": "She arrives around 10:30."
+          }
+        },
+        {
+          "id": 2,
+          "statement": "Die Besprechung um 14 Uhr fällt aus.",
+          "answer": "-",
+          "explanation": {
+            "de": "Die Besprechung kann stattfinden = sie fällt nicht aus.",
+            "en": "The 14:00 meeting is still on."
+          }
+        },
+        {
+          "id": 3,
+          "statement": "Amina hat am Mittwoch Zeit.",
+          "answer": "-",
+          "explanation": {
+            "de": "Am Mittwoch kann sie nicht.",
+            "en": "She cannot come on Wednesday."
+          }
+        },
+        {
+          "id": 4,
+          "statement": "Amina kann am Freitag ab 18 Uhr.",
+          "answer": "+",
+          "explanation": {
+            "de": "Freitag nach der Arbeit, ab 18 Uhr.",
+            "en": "She is free Friday from 18:00."
+          }
+        },
+        {
+          "id": 5,
+          "statement": "Sie wollen sich im Park treffen.",
+          "answer": "-",
+          "explanation": {
+            "de": "Treffpunkt ist das Café am Alexanderplatz.",
+            "en": "They meet at the café, not the park."
+          }
+        }
+      ],
+      "example": {
+        "statement": "Nora kommt heute später ins Büro.",
+        "answer": "+"
+      }
+    },
+    "teil2": {
+      "items": [
+        {
+          "id": 6,
+          "prompt": "Sie suchen einen Deutschkurs am Abend, nah am Alexanderplatz.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "VHS Mitte",
+              "body": "Deutsch A1 Abendkurs\nMo + Mi 18–20.30 Uhr\n5 Minuten vom Alexanderplatz"
+            },
+            {
+              "id": "b",
+              "title": "Sprachstudio Süd",
+              "body": "Nur Vormittagskurse\nIn Steglitz, 45 Minuten mit der U-Bahn"
+            }
+          ],
+          "explanation": {
+            "de": "VHS Mitte: Abendkurs und nah am Alexanderplatz.",
+            "en": "VHS Mitte is an evening course near Alexanderplatz."
+          }
+        },
+        {
+          "id": 7,
+          "prompt": "Sie müssen samstags ein Paket abholen.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Postfiliale Torstraße",
+              "body": "Mo–Fr 9–18 Uhr\nSamstag geschlossen"
+            },
+            {
+              "id": "b",
+              "title": "Paketshop Ringbahn",
+              "body": "Mo–Fr 8–20 Uhr\nSa 9–14 Uhr\nPakete abholen und senden"
+            }
+          ],
+          "explanation": {
+            "de": "Nur der Paketshop hat samstags offen.",
+            "en": "Only the parcel shop is open Saturday."
+          }
+        },
+        {
+          "id": 8,
+          "prompt": "Sie wollen nach der Arbeit, um 19 Uhr, Sport machen.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "FitClub Berlin",
+              "body": "Mo–Fr 6–23 Uhr\nSa/So 8–20 Uhr\nKurs um 19.15 Uhr: Rückenfitness"
+            },
+            {
+              "id": "b",
+              "title": "Yogaraum Morgenlicht",
+              "body": "Kurse nur 7–9 Uhr\nKein Abendprogramm"
+            }
+          ],
+          "explanation": {
+            "de": "FitClub hat um 19.15 Uhr einen Kurs. Yoga nur morgens.",
+            "en": "FitClub has a 19:15 class."
+          }
+        },
+        {
+          "id": 9,
+          "prompt": "Sie brauchen eine Apotheke, die um 21 Uhr noch offen ist.",
+          "answer": "b",
+          "options": [
+            {
+              "id": "a",
+              "title": "Sonnen-Apotheke",
+              "body": "Mo–Fr 8.30–18.30 Uhr\nSa 9–13 Uhr"
+            },
+            {
+              "id": "b",
+              "title": "Nachtapotheke am Zoo",
+              "body": "Täglich 8–24 Uhr\nNotdienst die ganze Nacht"
+            }
+          ],
+          "explanation": {
+            "de": "Nachtapotheke bis 24 Uhr. Sonnen-Apotheke schließt um 18.30.",
+            "en": "The night pharmacy is open until midnight."
+          }
+        },
+        {
+          "id": 10,
+          "prompt": "Sie möchten am Dienstag um 8.00 Uhr einen Termin beim Amt.",
+          "answer": "a",
+          "options": [
+            {
+              "id": "a",
+              "title": "Bürgeramt Mitte",
+              "body": "Di 8–12 Uhr und 14–18 Uhr\nOnline-Termine ab 8.00 Uhr"
+            },
+            {
+              "id": "b",
+              "title": "Bürgeramt West",
+              "body": "Nur Donnerstag 10–14 Uhr\nKeine Dienstagstermine"
+            }
+          ],
+          "explanation": {
+            "de": "Mitte hat Dienstag ab 8 Uhr. West nur Donnerstag.",
+            "en": "Mitte is open Tuesday from 8:00."
+          }
+        }
+      ],
+      "example": {
+        "prompt": "Sie brauchen am Wochenende einen Arzt.",
+        "answer": "a",
+        "options": [
+          {
+            "id": "a",
+            "title": "Ärztlicher Notdienst Berlin",
+            "body": "Sa, So und feiertags\n8–22 Uhr erreichbar\nTelefon 116 117"
+          },
+          {
+            "id": "b",
+            "title": "Tierarztpraxis Berlin-Mitte",
+            "body": "Hunde, Katzen, Kleintiere\nMo–Fr 9–18 Uhr\nTermine nach Vereinbarung"
+          }
+        ]
+      }
+    },
+    "teil3": {
+      "items": [
+        {
+          "id": 11,
+          "sign": "BÜRO\nBitte leise\nBesprechungen in Raum 4",
+          "statement": "Laute Telefongespräche sind hier erlaubt.",
+          "answer": "-",
+          "explanation": {
+            "de": "„Bitte leise“ = nicht laut telefonieren.",
+            "en": "The sign asks for quiet."
+          },
+          "where": "Im Großraumbüro"
+        },
+        {
+          "id": 12,
+          "sign": "KANTINE\n11.30–14.00 Uhr\nAbendessen nur Do 17–19 Uhr",
+          "statement": "Montags gibt es hier um 18 Uhr Abendessen.",
+          "answer": "-",
+          "explanation": {
+            "de": "Abendessen nur Donnerstag. Montag um 18 Uhr gibt es nichts.",
+            "en": "Dinner is only on Thursday."
+          },
+          "where": "An der Kantine"
+        },
+        {
+          "id": 13,
+          "sign": "FAHRRADPARKEN\nNur für Mitarbeiter\nGäste: Hofeingang links",
+          "statement": "Gäste dürfen ihre Räder nicht auf diesem Platz abstellen.",
+          "answer": "+",
+          "explanation": {
+            "de": "Nur für Mitarbeiter. Gäste gehen zum Hofeingang.",
+            "en": "This rack is for staff only."
+          },
+          "where": "Am Fahrradstand"
+        },
+        {
+          "id": 14,
+          "sign": "DRUCKER\nNur schwarz-weiß\nFarbe: bitte Sekretariat",
+          "statement": "Hier können Sie farbig drucken.",
+          "answer": "-",
+          "explanation": {
+            "de": "Dieser Drucker ist nur schwarz-weiß.",
+            "en": "This printer is black-and-white only."
+          },
+          "where": "Am Drucker"
+        },
+        {
+          "id": 15,
+          "sign": "NOTAUSGANG\nBitte freihalten\nKeine Kartons abstellen",
+          "statement": "Vor diesem Ausgang dürfen keine Kartons stehen.",
+          "answer": "+",
+          "explanation": {
+            "de": "Frehalten / keine Kartons = nichts davor stellen.",
+            "en": "Keep the emergency exit clear."
+          },
+          "where": "Am Notausgang"
+        }
+      ],
+      "example": {
+        "where": "Am Eingang",
+        "sign": "Bitte hier\nnicht parken.\nEinfahrt freihalten!",
+        "statement": "Sie dürfen Ihr Auto hier abstellen.",
+        "answer": "-"
+      }
+    }
+  },
+  "schreiben": {
+    "teil1": {
+      "scenario": "Ihr Kollege, Yusuf Demir, arbeitet in Berlin. Er meldet sich für den Erste-Hilfe-Kurs am Mittwoch an. Er kommt allein. Der Kurs ist von 9 bis 16 Uhr. Herr Demir zahlt mit Firmenkarte, nicht bar.",
+      "fields": [
+        {
+          "id": "name",
+          "label": "Familienname, Vorname",
+          "prefill": "Demir, Yusuf"
+        },
+        {
+          "id": "f1",
+          "label": "1. Arbeitsort",
+          "accepted": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "f2",
+          "label": "2. Kurstag",
+          "accepted": [
+            "Mittwoch"
+          ]
+        },
+        {
+          "id": "f3",
+          "label": "3. Anzahl der Personen",
+          "accepted": [
+            "1",
+            "ein",
+            "eins",
+            "allein"
+          ]
+        },
+        {
+          "id": "f4",
+          "label": "4. Uhrzeit (von–bis)",
+          "accepted": [
+            "9-16",
+            "9 bis 16",
+            "09-16",
+            "9.00-16.00",
+            "9 bis 16 uhr"
+          ]
+        },
+        {
+          "id": "f5",
+          "label": "5. Zahlungsweise",
+          "accepted": [
+            "Firmenkarte",
+            "Karte",
+            "Kreditkarte",
+            "nicht bar"
+          ]
+        }
+      ],
+      "formTitle": "ERSTE-HILFE-KURS · Anmeldung"
+    },
+    "teil2": {
+      "instruction": "Schreiben Sie an Ihre Kollegin Eva:",
+      "points": [
+        {
+          "label": "Der Termin am Montag fällt aus.",
+          "keywords": [
+            "montag",
+            "aus",
+            "nicht",
+            "termin"
+          ]
+        },
+        {
+          "label": "Sie schlagen Dienstag 10 Uhr vor.",
+          "keywords": [
+            "dienstag",
+            "10"
+          ]
+        },
+        {
+          "label": "Bitten Sie um eine kurze Antwort.",
+          "keywords": [
+            "antwort",
+            "schreib",
+            "sag",
+            "rueck",
+            "meld"
+          ]
+        }
+      ],
+      "model": "Liebe Eva, der Termin am Montag fällt aus. Können wir uns am Dienstag um 10 Uhr treffen? Bitte schreib mir kurz. Viele Grüße, Yusuf"
+    }
+  },
+  "sprechen": {
+    "teil1": {
+      "prompts": [
+        "Name?",
+        "Beruf?",
+        "Arbeitszeiten?",
+        "Sprachen?",
+        "Wohnort?",
+        "Feierabend?"
+      ],
+      "model": "Ich heiße … Ich bin … / ich lerne … Ich arbeite von … bis … Ich spreche … Ich wohne in … Am Feierabend …"
+    },
+    "teil2": {
+      "topic": "Arbeit und Termine",
+      "cards": [
+        "Beruf?",
+        "Arbeitszeit?",
+        "Pause?",
+        "Kollegen?",
+        "Computer?",
+        "Urlaub?"
+      ],
+      "model": "Wo arbeiten Sie? — In einem Büro in Berlin. Wann haben Sie Pause? — Von 12 bis 13 Uhr."
+    },
+    "teil3": {
+      "prompt": "Sie brauchen das Telefon. Bitten Sie: „Kann ich bitte kurz das Telefon benutzen?“",
+      "model": "Entschuldigung, kann ich bitte kurz das Telefon benutzen? — Ja, gern. / Einen Moment, ich bin gleich fertig."
+    }
+  }
+}
